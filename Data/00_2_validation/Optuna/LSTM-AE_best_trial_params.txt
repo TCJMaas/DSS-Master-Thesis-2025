@@ -1,0 +1,1 @@
+{'architecture': 'deep', 'dropout': 0.1, 'embedding_dim': 8, 'lr': 0.0008188148579607131}
