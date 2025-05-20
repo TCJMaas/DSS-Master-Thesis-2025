@@ -1,0 +1,531 @@
+
+==================================================
+Training Bi-LSTM-AE with sequence length: 10_day | Fold 1 (years: [2005, 2006])
+Epoch 01 | Train loss: 0.06400 | Val loss: 0.03618 | Combo score: 0.424 | Smoothed: 0.424 | MCC: 0.214 | REC: 0.441 | PRE: 0.152 | AUC: 0.800 | Threshold: 0.07007
+Epoch 02 | Train loss: 0.01955 | Val loss: 0.02086 | Combo score: 0.407 | Smoothed: 0.422 | MCC: 0.166 | REC: 0.441 | PRE: 0.112 | AUC: 0.796 | Threshold: 0.03560
+Epoch 03 | Train loss: 0.01270 | Val loss: 0.01847 | Combo score: 0.405 | Smoothed: 0.420 | MCC: 0.178 | REC: 0.284 | PRE: 0.164 | AUC: 0.797 | Threshold: 0.03742
+Epoch 04 | Train loss: 0.01116 | Val loss: 0.01578 | Combo score: 0.418 | Smoothed: 0.420 | MCC: 0.182 | REC: 0.657 | PRE: 0.094 | AUC: 0.760 | Threshold: 0.02098
+Epoch 05 | Train loss: 0.01014 | Val loss: 0.01550 | Combo score: 0.388 | Smoothed: 0.417 | MCC: 0.140 | REC: 0.402 | PRE: 0.098 | AUC: 0.706 | Threshold: 0.02563
+Epoch 06 | Train loss: 0.00963 | Val loss: 0.01416 | Combo score: 0.386 | Smoothed: 0.414 | MCC: 0.136 | REC: 0.441 | PRE: 0.090 | AUC: 0.683 | Threshold: 0.02270
+Epoch 07 | Train loss: 0.00842 | Val loss: 0.01347 | Combo score: 0.402 | Smoothed: 0.413 | MCC: 0.174 | REC: 0.441 | PRE: 0.117 | AUC: 0.718 | Threshold: 0.02539
+Epoch 08 | Train loss: 0.00775 | Val loss: 0.01260 | Combo score: 0.393 | Smoothed: 0.411 | MCC: 0.164 | REC: 0.333 | PRE: 0.132 | AUC: 0.704 | Threshold: 0.02690
+Epoch 09 | Train loss: 0.00720 | Val loss: 0.01165 | Combo score: 0.402 | Smoothed: 0.410 | MCC: 0.178 | REC: 0.461 | PRE: 0.117 | AUC: 0.701 | Threshold: 0.02162
+Epoch 10 | Train loss: 0.00758 | Val loss: 0.01162 | Combo score: 0.397 | Smoothed: 0.409 | MCC: 0.173 | REC: 0.324 | PRE: 0.145 | AUC: 0.717 | Threshold: 0.02649
+Epoch 11 | Train loss: 0.00633 | Val loss: 0.01129 | Combo score: 0.398 | Smoothed: 0.408 | MCC: 0.176 | REC: 0.324 | PRE: 0.148 | AUC: 0.719 | Threshold: 0.02685
+Epoch 12 | Train loss: 0.00603 | Val loss: 0.01066 | Combo score: 0.408 | Smoothed: 0.408 | MCC: 0.187 | REC: 0.480 | PRE: 0.120 | AUC: 0.718 | Threshold: 0.02001
+Epoch 13 | Train loss: 0.00582 | Val loss: 0.01027 | Combo score: 0.394 | Smoothed: 0.406 | MCC: 0.166 | REC: 0.333 | PRE: 0.134 | AUC: 0.710 | Threshold: 0.02450
+Epoch 14 | Train loss: 0.00561 | Val loss: 0.00930 | Combo score: 0.391 | Smoothed: 0.405 | MCC: 0.141 | REC: 0.520 | PRE: 0.085 | AUC: 0.687 | Threshold: 0.01390
+Epoch 15 | Train loss: 0.00539 | Val loss: 0.00986 | Combo score: 0.416 | Smoothed: 0.406 | MCC: 0.208 | REC: 0.480 | PRE: 0.138 | AUC: 0.726 | Threshold: 0.02020
+Epoch 16 | Train loss: 0.00501 | Val loss: 0.00797 | Combo score: 0.342 | Smoothed: 0.399 | MCC: 0.062 | REC: 0.186 | PRE: 0.071 | AUC: 0.607 | Threshold: 0.01742
+Epoch 17 | Train loss: 0.00577 | Val loss: 0.00844 | Combo score: 0.358 | Smoothed: 0.395 | MCC: 0.082 | REC: 0.235 | PRE: 0.080 | AUC: 0.676 | Threshold: 0.01544
+Epoch 18 | Train loss: 0.00447 | Val loss: 0.00730 | Combo score: 0.346 | Smoothed: 0.390 | MCC: 0.071 | REC: 0.196 | PRE: 0.078 | AUC: 0.608 | Threshold: 0.01609
+Epoch 19 | Train loss: 0.00402 | Val loss: 0.00701 | Combo score: 0.348 | Smoothed: 0.386 | MCC: 0.079 | REC: 0.176 | PRE: 0.089 | AUC: 0.608 | Threshold: 0.01791
+Epoch 20 | Train loss: 0.00378 | Val loss: 0.00639 | Combo score: 0.336 | Smoothed: 0.381 | MCC: 0.056 | REC: 0.176 | PRE: 0.068 | AUC: 0.571 | Threshold: 0.01523
+Epoch 21 | Train loss: 0.00359 | Val loss: 0.00625 | Combo score: 0.336 | Smoothed: 0.377 | MCC: 0.054 | REC: 0.176 | PRE: 0.067 | AUC: 0.579 | Threshold: 0.01473
+Epoch 22 | Train loss: 0.00338 | Val loss: 0.00659 | Combo score: 0.368 | Smoothed: 0.376 | MCC: 0.131 | REC: 0.127 | PRE: 0.191 | AUC: 0.630 | Threshold: 0.03188
+Epoch 23 | Train loss: 0.00332 | Val loss: 0.00616 | Combo score: 0.323 | Smoothed: 0.371 | MCC: 0.029 | REC: 0.216 | PRE: 0.048 | AUC: 0.515 | Threshold: 0.00982
+Epoch 24 | Train loss: 0.00701 | Val loss: 0.01671 | Combo score: 0.373 | Smoothed: 0.371 | MCC: 0.127 | REC: 0.255 | PRE: 0.116 | AUC: 0.666 | Threshold: 0.03409
+Early stopping at epoch 24 (no improvement in smoothed or combo score over 10 epochs)
+
+--- Fold 1 summary (years: [2005, 2006]) ---
+Best epoch: 1
+Threshold used: 0.07007
+Validation metrics:
+ACC: 89.3%
+PRE: 15.2%
+REC: 44.1%
+MCC: 0.21
+AUC: 0.80
+==================================================
+
+
+==================================================
+Training Bi-LSTM-AE with sequence length: 10_day | Fold 2 (years: [2006, 2007])
+Epoch 01 | Train loss: 0.05894 | Val loss: 0.04004 | Combo score: 0.435 | Smoothed: 0.435 | MCC: 0.276 | REC: 0.293 | PRE: 0.319 | AUC: 0.719 | Threshold: 0.10485
+Epoch 02 | Train loss: 0.01848 | Val loss: 0.01559 | Combo score: 0.414 | Smoothed: 0.433 | MCC: 0.189 | REC: 0.472 | PRE: 0.134 | AUC: 0.772 | Threshold: 0.02421
+Epoch 03 | Train loss: 0.01267 | Val loss: 0.01381 | Combo score: 0.396 | Smoothed: 0.429 | MCC: 0.163 | REC: 0.390 | PRE: 0.128 | AUC: 0.708 | Threshold: 0.02392
+Epoch 04 | Train loss: 0.01029 | Val loss: 0.01258 | Combo score: 0.398 | Smoothed: 0.426 | MCC: 0.168 | REC: 0.455 | PRE: 0.120 | AUC: 0.693 | Threshold: 0.02009
+Epoch 05 | Train loss: 0.00936 | Val loss: 0.01251 | Combo score: 0.422 | Smoothed: 0.426 | MCC: 0.220 | REC: 0.463 | PRE: 0.162 | AUC: 0.746 | Threshold: 0.02209
+Epoch 06 | Train loss: 0.00868 | Val loss: 0.01216 | Combo score: 0.408 | Smoothed: 0.424 | MCC: 0.193 | REC: 0.366 | PRE: 0.162 | AUC: 0.740 | Threshold: 0.02329
+Epoch 07 | Train loss: 0.00821 | Val loss: 0.01102 | Combo score: 0.398 | Smoothed: 0.421 | MCC: 0.181 | REC: 0.358 | PRE: 0.152 | AUC: 0.678 | Threshold: 0.02058
+Epoch 08 | Train loss: 0.00762 | Val loss: 0.01069 | Combo score: 0.404 | Smoothed: 0.420 | MCC: 0.197 | REC: 0.325 | PRE: 0.181 | AUC: 0.695 | Threshold: 0.02228
+Epoch 09 | Train loss: 0.00754 | Val loss: 0.01087 | Combo score: 0.407 | Smoothed: 0.418 | MCC: 0.195 | REC: 0.415 | PRE: 0.151 | AUC: 0.697 | Threshold: 0.01995
+Epoch 10 | Train loss: 0.00693 | Val loss: 0.01069 | Combo score: 0.410 | Smoothed: 0.417 | MCC: 0.198 | REC: 0.407 | PRE: 0.156 | AUC: 0.720 | Threshold: 0.01947
+Epoch 11 | Train loss: 0.00661 | Val loss: 0.00991 | Combo score: 0.404 | Smoothed: 0.416 | MCC: 0.191 | REC: 0.350 | PRE: 0.165 | AUC: 0.707 | Threshold: 0.01986
+Epoch 12 | Train loss: 0.00633 | Val loss: 0.00873 | Combo score: 0.377 | Smoothed: 0.412 | MCC: 0.129 | REC: 0.260 | PRE: 0.126 | AUC: 0.689 | Threshold: 0.01679
+Epoch 13 | Train loss: 0.00565 | Val loss: 0.00770 | Combo score: 0.358 | Smoothed: 0.407 | MCC: 0.093 | REC: 0.195 | PRE: 0.108 | AUC: 0.647 | Threshold: 0.01531
+Epoch 14 | Train loss: 0.00525 | Val loss: 0.00743 | Combo score: 0.349 | Smoothed: 0.401 | MCC: 0.090 | REC: 0.187 | PRE: 0.107 | AUC: 0.575 | Threshold: 0.01540
+Epoch 15 | Train loss: 0.00493 | Val loss: 0.00775 | Combo score: 0.360 | Smoothed: 0.397 | MCC: 0.116 | REC: 0.179 | PRE: 0.140 | AUC: 0.593 | Threshold: 0.01739
+Epoch 16 | Train loss: 0.00464 | Val loss: 0.00744 | Combo score: 0.352 | Smoothed: 0.392 | MCC: 0.102 | REC: 0.203 | PRE: 0.115 | AUC: 0.552 | Threshold: 0.01498
+Epoch 17 | Train loss: 0.00447 | Val loss: 0.00693 | Combo score: 0.354 | Smoothed: 0.389 | MCC: 0.102 | REC: 0.195 | PRE: 0.118 | AUC: 0.577 | Threshold: 0.01552
+Epoch 18 | Train loss: 0.00430 | Val loss: 0.00674 | Combo score: 0.360 | Smoothed: 0.386 | MCC: 0.115 | REC: 0.203 | PRE: 0.129 | AUC: 0.588 | Threshold: 0.01469
+Epoch 19 | Train loss: 0.00415 | Val loss: 0.00695 | Combo score: 0.366 | Smoothed: 0.384 | MCC: 0.126 | REC: 0.171 | PRE: 0.159 | AUC: 0.614 | Threshold: 0.01677
+Epoch 20 | Train loss: 0.00396 | Val loss: 0.00654 | Combo score: 0.367 | Smoothed: 0.382 | MCC: 0.128 | REC: 0.236 | PRE: 0.133 | AUC: 0.605 | Threshold: 0.01437
+Epoch 21 | Train loss: 0.00384 | Val loss: 0.00630 | Combo score: 0.351 | Smoothed: 0.379 | MCC: 0.086 | REC: 0.195 | PRE: 0.100 | AUC: 0.607 | Threshold: 0.01260
+Epoch 22 | Train loss: 0.00384 | Val loss: 0.00598 | Combo score: 0.361 | Smoothed: 0.377 | MCC: 0.121 | REC: 0.154 | PRE: 0.161 | AUC: 0.594 | Threshold: 0.01607
+Epoch 23 | Train loss: 0.00343 | Val loss: 0.00634 | Combo score: 0.370 | Smoothed: 0.376 | MCC: 0.102 | REC: 0.382 | PRE: 0.085 | AUC: 0.659 | Threshold: 0.00946
+Epoch 24 | Train loss: 0.00325 | Val loss: 0.00579 | Combo score: 0.371 | Smoothed: 0.376 | MCC: 0.117 | REC: 0.390 | PRE: 0.093 | AUC: 0.617 | Threshold: 0.00956
+Early stopping at epoch 24 (no improvement in smoothed or combo score over 10 epochs)
+
+--- Fold 2 summary (years: [2006, 2007]) ---
+Best epoch: 1
+Threshold used: 0.10485
+Validation metrics:
+ACC: 94.3%
+PRE: 31.9%
+REC: 29.3%
+MCC: 0.28
+AUC: 0.72
+==================================================
+
+
+==================================================
+Training Bi-LSTM-AE with sequence length: 10_day | Fold 3 (years: [2007, 2008])
+Epoch 01 | Train loss: 0.06331 | Val loss: 0.03945 | Combo score: 0.398 | Smoothed: 0.398 | MCC: 0.184 | REC: 0.124 | PRE: 0.324 | AUC: 0.703 | Threshold: 0.11776
+Epoch 02 | Train loss: 0.02716 | Val loss: 0.03087 | Combo score: 0.396 | Smoothed: 0.398 | MCC: 0.176 | REC: 0.268 | PRE: 0.167 | AUC: 0.713 | Threshold: 0.07605
+Epoch 03 | Train loss: 0.02564 | Val loss: 0.02984 | Combo score: 0.398 | Smoothed: 0.398 | MCC: 0.175 | REC: 0.278 | PRE: 0.161 | AUC: 0.732 | Threshold: 0.06866
+Epoch 04 | Train loss: 0.02041 | Val loss: 0.01954 | Combo score: 0.381 | Smoothed: 0.396 | MCC: 0.141 | REC: 0.124 | PRE: 0.214 | AUC: 0.718 | Threshold: 0.04963
+Epoch 05 | Train loss: 0.01804 | Val loss: 0.01906 | Combo score: 0.392 | Smoothed: 0.396 | MCC: 0.152 | REC: 0.268 | PRE: 0.137 | AUC: 0.759 | Threshold: 0.03864
+Epoch 06 | Train loss: 0.01893 | Val loss: 0.01879 | Combo score: 0.412 | Smoothed: 0.397 | MCC: 0.180 | REC: 0.557 | PRE: 0.102 | AUC: 0.748 | Threshold: 0.02780
+Epoch 07 | Train loss: 0.01763 | Val loss: 0.01844 | Combo score: 0.391 | Smoothed: 0.397 | MCC: 0.154 | REC: 0.247 | PRE: 0.146 | AUC: 0.749 | Threshold: 0.03771
+Epoch 08 | Train loss: 0.01746 | Val loss: 0.01872 | Combo score: 0.411 | Smoothed: 0.398 | MCC: 0.179 | REC: 0.526 | PRE: 0.106 | AUC: 0.753 | Threshold: 0.02905
+Epoch 09 | Train loss: 0.01762 | Val loss: 0.01964 | Combo score: 0.395 | Smoothed: 0.398 | MCC: 0.157 | REC: 0.309 | PRE: 0.129 | AUC: 0.761 | Threshold: 0.03739
+Epoch 10 | Train loss: 0.01752 | Val loss: 0.01717 | Combo score: 0.381 | Smoothed: 0.396 | MCC: 0.131 | REC: 0.320 | PRE: 0.103 | AUC: 0.709 | Threshold: 0.03015
+Epoch 11 | Train loss: 0.01680 | Val loss: 0.01587 | Combo score: 0.347 | Smoothed: 0.391 | MCC: 0.064 | REC: 0.299 | PRE: 0.059 | AUC: 0.601 | Threshold: 0.02441
+Epoch 12 | Train loss: 0.01652 | Val loss: 0.01641 | Combo score: 0.362 | Smoothed: 0.388 | MCC: 0.100 | REC: 0.330 | PRE: 0.078 | AUC: 0.617 | Threshold: 0.02837
+Epoch 13 | Train loss: 0.01640 | Val loss: 0.01609 | Combo score: 0.361 | Smoothed: 0.386 | MCC: 0.108 | REC: 0.309 | PRE: 0.086 | AUC: 0.587 | Threshold: 0.02802
+Epoch 14 | Train loss: 0.01638 | Val loss: 0.01640 | Combo score: 0.368 | Smoothed: 0.384 | MCC: 0.125 | REC: 0.278 | PRE: 0.106 | AUC: 0.611 | Threshold: 0.03252
+Epoch 15 | Train loss: 0.01637 | Val loss: 0.01600 | Combo score: 0.344 | Smoothed: 0.380 | MCC: 0.063 | REC: 0.320 | PRE: 0.057 | AUC: 0.562 | Threshold: 0.02515
+Epoch 16 | Train loss: 0.01630 | Val loss: 0.01575 | Combo score: 0.350 | Smoothed: 0.377 | MCC: 0.073 | REC: 0.340 | PRE: 0.061 | AUC: 0.581 | Threshold: 0.02412
+Epoch 17 | Train loss: 0.01629 | Val loss: 0.01687 | Combo score: 0.360 | Smoothed: 0.375 | MCC: 0.081 | REC: 0.340 | PRE: 0.065 | AUC: 0.657 | Threshold: 0.02770
+Epoch 18 | Train loss: 0.01636 | Val loss: 0.01560 | Combo score: 0.357 | Smoothed: 0.373 | MCC: 0.098 | REC: 0.299 | PRE: 0.081 | AUC: 0.590 | Threshold: 0.02777
+Epoch 19 | Train loss: 0.01220 | Val loss: 0.01175 | Combo score: 0.397 | Smoothed: 0.376 | MCC: 0.184 | REC: 0.330 | PRE: 0.152 | AUC: 0.678 | Threshold: 0.02719
+Epoch 20 | Train loss: 0.01050 | Val loss: 0.01212 | Combo score: 0.404 | Smoothed: 0.379 | MCC: 0.199 | REC: 0.361 | PRE: 0.158 | AUC: 0.683 | Threshold: 0.02681
+Epoch 21 | Train loss: 0.01163 | Val loss: 0.01148 | Combo score: 0.397 | Smoothed: 0.380 | MCC: 0.185 | REC: 0.320 | PRE: 0.157 | AUC: 0.678 | Threshold: 0.02583
+Epoch 22 | Train loss: 0.01025 | Val loss: 0.01116 | Combo score: 0.389 | Smoothed: 0.381 | MCC: 0.167 | REC: 0.320 | PRE: 0.137 | AUC: 0.656 | Threshold: 0.02377
+Epoch 23 | Train loss: 0.00961 | Val loss: 0.01047 | Combo score: 0.393 | Smoothed: 0.382 | MCC: 0.179 | REC: 0.247 | PRE: 0.180 | AUC: 0.681 | Threshold: 0.02849
+Epoch 24 | Train loss: 0.00872 | Val loss: 0.00961 | Combo score: 0.396 | Smoothed: 0.384 | MCC: 0.178 | REC: 0.258 | PRE: 0.174 | AUC: 0.710 | Threshold: 0.02527
+Early stopping at epoch 24 (no improvement in smoothed or combo score over 10 epochs)
+
+--- Fold 3 summary (years: [2007, 2008]) ---
+Best epoch: 6
+Threshold used: 0.02780
+Validation metrics:
+ACC: 82.0%
+PRE: 10.2%
+REC: 55.7%
+MCC: 0.18
+AUC: 0.75
+==================================================
+
+
+==================================================
+Training Bi-LSTM-AE with sequence length: 10_day | Fold 4 (years: [2008, 2009])
+Epoch 01 | Train loss: 0.05676 | Val loss: 0.03645 | Combo score: 0.456 | Smoothed: 0.456 | MCC: 0.321 | REC: 0.390 | PRE: 0.325 | AUC: 0.743 | Threshold: 0.10390
+Epoch 02 | Train loss: 0.02293 | Val loss: 0.01860 | Combo score: 0.424 | Smoothed: 0.453 | MCC: 0.235 | REC: 0.213 | PRE: 0.326 | AUC: 0.763 | Threshold: 0.05026
+Epoch 03 | Train loss: 0.01787 | Val loss: 0.01713 | Combo score: 0.405 | Smoothed: 0.448 | MCC: 0.163 | REC: 0.515 | PRE: 0.113 | AUC: 0.744 | Threshold: 0.02362
+Epoch 04 | Train loss: 0.01700 | Val loss: 0.01613 | Combo score: 0.400 | Smoothed: 0.443 | MCC: 0.163 | REC: 0.507 | PRE: 0.115 | AUC: 0.699 | Threshold: 0.02367
+Epoch 05 | Train loss: 0.01670 | Val loss: 0.01546 | Combo score: 0.367 | Smoothed: 0.436 | MCC: 0.104 | REC: 0.397 | PRE: 0.090 | AUC: 0.617 | Threshold: 0.02150
+Epoch 06 | Train loss: 0.01608 | Val loss: 0.01370 | Combo score: 0.418 | Smoothed: 0.434 | MCC: 0.218 | REC: 0.412 | PRE: 0.180 | AUC: 0.732 | Threshold: 0.02562
+Epoch 07 | Train loss: 0.01148 | Val loss: 0.01079 | Combo score: 0.445 | Smoothed: 0.435 | MCC: 0.275 | REC: 0.529 | PRE: 0.203 | AUC: 0.757 | Threshold: 0.01956
+Epoch 08 | Train loss: 0.01034 | Val loss: 0.01035 | Combo score: 0.453 | Smoothed: 0.437 | MCC: 0.292 | REC: 0.566 | PRE: 0.209 | AUC: 0.771 | Threshold: 0.02027
+Epoch 09 | Train loss: 0.00935 | Val loss: 0.00898 | Combo score: 0.477 | Smoothed: 0.441 | MCC: 0.356 | REC: 0.551 | PRE: 0.285 | AUC: 0.785 | Threshold: 0.02207
+Epoch 10 | Train loss: 0.00749 | Val loss: 0.00727 | Combo score: 0.477 | Smoothed: 0.445 | MCC: 0.357 | REC: 0.537 | PRE: 0.293 | AUC: 0.788 | Threshold: 0.01692
+Epoch 11 | Train loss: 0.00669 | Val loss: 0.00713 | Combo score: 0.479 | Smoothed: 0.448 | MCC: 0.353 | REC: 0.537 | PRE: 0.289 | AUC: 0.819 | Threshold: 0.01944
+Epoch 12 | Train loss: 0.00631 | Val loss: 0.00653 | Combo score: 0.472 | Smoothed: 0.450 | MCC: 0.336 | REC: 0.566 | PRE: 0.256 | AUC: 0.800 | Threshold: 0.01650
+Epoch 13 | Train loss: 0.00593 | Val loss: 0.00667 | Combo score: 0.472 | Smoothed: 0.453 | MCC: 0.334 | REC: 0.618 | PRE: 0.236 | AUC: 0.792 | Threshold: 0.01375
+Epoch 14 | Train loss: 0.00563 | Val loss: 0.00672 | Combo score: 0.477 | Smoothed: 0.455 | MCC: 0.339 | REC: 0.647 | PRE: 0.232 | AUC: 0.810 | Threshold: 0.01299
+Epoch 15 | Train loss: 0.00539 | Val loss: 0.00634 | Combo score: 0.469 | Smoothed: 0.456 | MCC: 0.324 | REC: 0.625 | PRE: 0.223 | AUC: 0.793 | Threshold: 0.01225
+Epoch 16 | Train loss: 0.00521 | Val loss: 0.00591 | Combo score: 0.456 | Smoothed: 0.456 | MCC: 0.302 | REC: 0.449 | PRE: 0.264 | AUC: 0.797 | Threshold: 0.01794
+Epoch 17 | Train loss: 0.00498 | Val loss: 0.00590 | Combo score: 0.450 | Smoothed: 0.456 | MCC: 0.291 | REC: 0.426 | PRE: 0.260 | AUC: 0.789 | Threshold: 0.01962
+Epoch 18 | Train loss: 0.00476 | Val loss: 0.00545 | Combo score: 0.453 | Smoothed: 0.455 | MCC: 0.298 | REC: 0.419 | PRE: 0.274 | AUC: 0.786 | Threshold: 0.01716
+Epoch 19 | Train loss: 0.00455 | Val loss: 0.00603 | Combo score: 0.454 | Smoothed: 0.455 | MCC: 0.300 | REC: 0.397 | PRE: 0.289 | AUC: 0.795 | Threshold: 0.02332
+Epoch 20 | Train loss: 0.00440 | Val loss: 0.00590 | Combo score: 0.449 | Smoothed: 0.455 | MCC: 0.287 | REC: 0.434 | PRE: 0.251 | AUC: 0.792 | Threshold: 0.02152
+Epoch 21 | Train loss: 0.00426 | Val loss: 0.00563 | Combo score: 0.452 | Smoothed: 0.454 | MCC: 0.293 | REC: 0.441 | PRE: 0.256 | AUC: 0.789 | Threshold: 0.01873
+Epoch 22 | Train loss: 0.00416 | Val loss: 0.00563 | Combo score: 0.450 | Smoothed: 0.454 | MCC: 0.288 | REC: 0.434 | PRE: 0.253 | AUC: 0.795 | Threshold: 0.02073
+Epoch 23 | Train loss: 0.00404 | Val loss: 0.00562 | Combo score: 0.444 | Smoothed: 0.453 | MCC: 0.274 | REC: 0.419 | PRE: 0.242 | AUC: 0.784 | Threshold: 0.02097
+Epoch 24 | Train loss: 0.00345 | Val loss: 0.00325 | Combo score: 0.419 | Smoothed: 0.450 | MCC: 0.220 | REC: 0.243 | PRE: 0.268 | AUC: 0.779 | Threshold: 0.01014
+Epoch 25 | Train loss: 0.00304 | Val loss: 0.00307 | Combo score: 0.407 | Smoothed: 0.445 | MCC: 0.194 | REC: 0.235 | PRE: 0.230 | AUC: 0.754 | Threshold: 0.00897
+Early stopping at epoch 25 (no improvement in smoothed or combo score over 10 epochs)
+
+--- Fold 4 summary (years: [2008, 2009]) ---
+Best epoch: 11
+Threshold used: 0.01944
+Validation metrics:
+ACC: 91.6%
+PRE: 28.9%
+REC: 53.7%
+MCC: 0.35
+AUC: 0.82
+==================================================
+
+
+==================================================
+Training Bi-LSTM-AE with sequence length: 10_day | Fold 5 (years: [2009, 2010])
+Epoch 01 | Train loss: 0.06754 | Val loss: 0.03505 | Combo score: 0.478 | Smoothed: 0.478 | MCC: 0.365 | REC: 0.300 | PRE: 0.519 | AUC: 0.772 | Threshold: 0.08581
+Epoch 02 | Train loss: 0.04983 | Val loss: 0.06207 | Combo score: 0.479 | Smoothed: 0.478 | MCC: 0.355 | REC: 0.389 | PRE: 0.400 | AUC: 0.827 | Threshold: 0.12579
+Epoch 03 | Train loss: 0.05336 | Val loss: 0.06379 | Combo score: 0.482 | Smoothed: 0.478 | MCC: 0.361 | REC: 0.389 | PRE: 0.412 | AUC: 0.833 | Threshold: 0.16041
+Epoch 04 | Train loss: 0.05230 | Val loss: 0.03620 | Combo score: 0.490 | Smoothed: 0.479 | MCC: 0.382 | REC: 0.289 | PRE: 0.578 | AUC: 0.819 | Threshold: 0.10358
+Epoch 05 | Train loss: 0.03138 | Val loss: 0.03202 | Combo score: 0.474 | Smoothed: 0.479 | MCC: 0.377 | REC: 0.289 | PRE: 0.565 | AUC: 0.680 | Threshold: 0.10085
+Epoch 06 | Train loss: 0.03097 | Val loss: 0.03158 | Combo score: 0.464 | Smoothed: 0.477 | MCC: 0.364 | REC: 0.306 | PRE: 0.509 | AUC: 0.636 | Threshold: 0.09385
+Epoch 07 | Train loss: 0.03098 | Val loss: 0.03167 | Combo score: 0.465 | Smoothed: 0.476 | MCC: 0.367 | REC: 0.300 | PRE: 0.524 | AUC: 0.638 | Threshold: 0.09984
+Epoch 08 | Train loss: 0.03099 | Val loss: 0.03196 | Combo score: 0.472 | Smoothed: 0.476 | MCC: 0.380 | REC: 0.289 | PRE: 0.571 | AUC: 0.653 | Threshold: 0.10532
+Epoch 09 | Train loss: 0.03095 | Val loss: 0.03185 | Combo score: 0.468 | Smoothed: 0.475 | MCC: 0.367 | REC: 0.300 | PRE: 0.524 | AUC: 0.669 | Threshold: 0.09875
+Epoch 10 | Train loss: 0.03096 | Val loss: 0.03191 | Combo score: 0.467 | Smoothed: 0.474 | MCC: 0.367 | REC: 0.300 | PRE: 0.524 | AUC: 0.656 | Threshold: 0.10325
+Epoch 11 | Train loss: 0.03097 | Val loss: 0.03164 | Combo score: 0.467 | Smoothed: 0.473 | MCC: 0.367 | REC: 0.300 | PRE: 0.524 | AUC: 0.654 | Threshold: 0.09784
+Epoch 12 | Train loss: 0.03089 | Val loss: 0.03165 | Combo score: 0.467 | Smoothed: 0.473 | MCC: 0.367 | REC: 0.300 | PRE: 0.524 | AUC: 0.657 | Threshold: 0.09712
+Epoch 13 | Train loss: 0.03092 | Val loss: 0.03136 | Combo score: 0.464 | Smoothed: 0.472 | MCC: 0.367 | REC: 0.300 | PRE: 0.524 | AUC: 0.628 | Threshold: 0.09376
+Epoch 14 | Train loss: 0.03088 | Val loss: 0.03150 | Combo score: 0.470 | Smoothed: 0.472 | MCC: 0.380 | REC: 0.289 | PRE: 0.571 | AUC: 0.634 | Threshold: 0.09675
+Epoch 15 | Train loss: 0.03088 | Val loss: 0.03185 | Combo score: 0.469 | Smoothed: 0.472 | MCC: 0.367 | REC: 0.300 | PRE: 0.524 | AUC: 0.680 | Threshold: 0.09820
+Epoch 16 | Train loss: 0.03088 | Val loss: 0.03151 | Combo score: 0.464 | Smoothed: 0.471 | MCC: 0.367 | REC: 0.300 | PRE: 0.524 | AUC: 0.626 | Threshold: 0.09960
+Epoch 17 | Train loss: 0.03087 | Val loss: 0.03146 | Combo score: 0.463 | Smoothed: 0.470 | MCC: 0.367 | REC: 0.300 | PRE: 0.524 | AUC: 0.619 | Threshold: 0.09754
+Epoch 18 | Train loss: 0.03089 | Val loss: 0.03183 | Combo score: 0.468 | Smoothed: 0.470 | MCC: 0.367 | REC: 0.300 | PRE: 0.524 | AUC: 0.664 | Threshold: 0.10021
+Epoch 19 | Train loss: 0.03085 | Val loss: 0.03200 | Combo score: 0.469 | Smoothed: 0.470 | MCC: 0.367 | REC: 0.300 | PRE: 0.524 | AUC: 0.676 | Threshold: 0.10330
+Epoch 20 | Train loss: 0.03083 | Val loss: 0.03129 | Combo score: 0.464 | Smoothed: 0.469 | MCC: 0.367 | REC: 0.300 | PRE: 0.524 | AUC: 0.625 | Threshold: 0.09345
+Epoch 21 | Train loss: 0.03081 | Val loss: 0.03135 | Combo score: 0.464 | Smoothed: 0.469 | MCC: 0.367 | REC: 0.300 | PRE: 0.524 | AUC: 0.630 | Threshold: 0.09505
+Epoch 22 | Train loss: 0.03086 | Val loss: 0.03148 | Combo score: 0.466 | Smoothed: 0.468 | MCC: 0.367 | REC: 0.300 | PRE: 0.524 | AUC: 0.647 | Threshold: 0.09593
+Epoch 23 | Train loss: 0.03078 | Val loss: 0.03144 | Combo score: 0.465 | Smoothed: 0.468 | MCC: 0.367 | REC: 0.300 | PRE: 0.524 | AUC: 0.638 | Threshold: 0.09497
+Epoch 24 | Train loss: 0.03085 | Val loss: 0.03193 | Combo score: 0.469 | Smoothed: 0.468 | MCC: 0.367 | REC: 0.300 | PRE: 0.524 | AUC: 0.672 | Threshold: 0.10254
+Early stopping at epoch 24 (no improvement in smoothed or combo score over 10 epochs)
+
+--- Fold 5 summary (years: [2009, 2010]) ---
+Best epoch: 4
+Threshold used: 0.10358
+Validation metrics:
+ACC: 94.2%
+PRE: 57.8%
+REC: 28.9%
+MCC: 0.38
+AUC: 0.82
+==================================================
+
+
+==================================================
+Training Bi-LSTM-AE with sequence length: 10_day | Fold 6 (years: [2010, 2011])
+Epoch 01 | Train loss: 0.05388 | Val loss: 0.01871 | Combo score: 0.448 | Smoothed: 0.448 | MCC: 0.281 | REC: 0.492 | PRE: 0.220 | AUC: 0.781 | Threshold: 0.03012
+Epoch 02 | Train loss: 0.01701 | Val loss: 0.01442 | Combo score: 0.429 | Smoothed: 0.446 | MCC: 0.221 | REC: 0.606 | PRE: 0.138 | AUC: 0.760 | Threshold: 0.01984
+Epoch 03 | Train loss: 0.01246 | Val loss: 0.01266 | Combo score: 0.439 | Smoothed: 0.445 | MCC: 0.262 | REC: 0.424 | PRE: 0.223 | AUC: 0.778 | Threshold: 0.02122
+Epoch 04 | Train loss: 0.01168 | Val loss: 0.01204 | Combo score: 0.439 | Smoothed: 0.445 | MCC: 0.259 | REC: 0.394 | PRE: 0.232 | AUC: 0.798 | Threshold: 0.02171
+Epoch 05 | Train loss: 0.01092 | Val loss: 0.01180 | Combo score: 0.467 | Smoothed: 0.447 | MCC: 0.329 | REC: 0.424 | PRE: 0.313 | AUC: 0.814 | Threshold: 0.02358
+Epoch 06 | Train loss: 0.00930 | Val loss: 0.01020 | Combo score: 0.490 | Smoothed: 0.451 | MCC: 0.382 | REC: 0.455 | PRE: 0.375 | AUC: 0.836 | Threshold: 0.02567
+Epoch 07 | Train loss: 0.00849 | Val loss: 0.00923 | Combo score: 0.489 | Smoothed: 0.455 | MCC: 0.381 | REC: 0.424 | PRE: 0.397 | AUC: 0.837 | Threshold: 0.02292
+Epoch 08 | Train loss: 0.00755 | Val loss: 0.00864 | Combo score: 0.473 | Smoothed: 0.457 | MCC: 0.346 | REC: 0.417 | PRE: 0.344 | AUC: 0.816 | Threshold: 0.02134
+Epoch 09 | Train loss: 0.00681 | Val loss: 0.00874 | Combo score: 0.483 | Smoothed: 0.460 | MCC: 0.367 | REC: 0.409 | PRE: 0.386 | AUC: 0.834 | Threshold: 0.02459
+Epoch 10 | Train loss: 0.00627 | Val loss: 0.00763 | Combo score: 0.485 | Smoothed: 0.462 | MCC: 0.371 | REC: 0.386 | PRE: 0.411 | AUC: 0.836 | Threshold: 0.02451
+Epoch 11 | Train loss: 0.00588 | Val loss: 0.00751 | Combo score: 0.480 | Smoothed: 0.464 | MCC: 0.358 | REC: 0.424 | PRE: 0.359 | AUC: 0.836 | Threshold: 0.02514
+Epoch 12 | Train loss: 0.00566 | Val loss: 0.00759 | Combo score: 0.489 | Smoothed: 0.466 | MCC: 0.378 | REC: 0.386 | PRE: 0.425 | AUC: 0.851 | Threshold: 0.02836
+Epoch 13 | Train loss: 0.00539 | Val loss: 0.00723 | Combo score: 0.485 | Smoothed: 0.468 | MCC: 0.369 | REC: 0.424 | PRE: 0.376 | AUC: 0.844 | Threshold: 0.02358
+Epoch 14 | Train loss: 0.00528 | Val loss: 0.00631 | Combo score: 0.473 | Smoothed: 0.469 | MCC: 0.344 | REC: 0.394 | PRE: 0.359 | AUC: 0.823 | Threshold: 0.01942
+Epoch 15 | Train loss: 0.00568 | Val loss: 0.00645 | Combo score: 0.486 | Smoothed: 0.471 | MCC: 0.378 | REC: 0.386 | PRE: 0.425 | AUC: 0.825 | Threshold: 0.02450
+Epoch 16 | Train loss: 0.00515 | Val loss: 0.00645 | Combo score: 0.481 | Smoothed: 0.472 | MCC: 0.363 | REC: 0.402 | PRE: 0.384 | AUC: 0.826 | Threshold: 0.02381
+Epoch 17 | Train loss: 0.00489 | Val loss: 0.00620 | Combo score: 0.478 | Smoothed: 0.472 | MCC: 0.357 | REC: 0.402 | PRE: 0.373 | AUC: 0.827 | Threshold: 0.02196
+Epoch 18 | Train loss: 0.00475 | Val loss: 0.00615 | Combo score: 0.477 | Smoothed: 0.473 | MCC: 0.355 | REC: 0.386 | PRE: 0.383 | AUC: 0.817 | Threshold: 0.02227
+Epoch 19 | Train loss: 0.00471 | Val loss: 0.00623 | Combo score: 0.480 | Smoothed: 0.473 | MCC: 0.363 | REC: 0.409 | PRE: 0.378 | AUC: 0.819 | Threshold: 0.02335
+Epoch 20 | Train loss: 0.00458 | Val loss: 0.00626 | Combo score: 0.479 | Smoothed: 0.474 | MCC: 0.358 | REC: 0.409 | PRE: 0.370 | AUC: 0.826 | Threshold: 0.02328
+Epoch 21 | Train loss: 0.00453 | Val loss: 0.00626 | Combo score: 0.483 | Smoothed: 0.475 | MCC: 0.367 | REC: 0.386 | PRE: 0.405 | AUC: 0.837 | Threshold: 0.02628
+Epoch 22 | Train loss: 0.00448 | Val loss: 0.00642 | Combo score: 0.488 | Smoothed: 0.476 | MCC: 0.379 | REC: 0.371 | PRE: 0.441 | AUC: 0.841 | Threshold: 0.02766
+Epoch 23 | Train loss: 0.00443 | Val loss: 0.00615 | Combo score: 0.475 | Smoothed: 0.476 | MCC: 0.348 | REC: 0.409 | PRE: 0.353 | AUC: 0.821 | Threshold: 0.02206
+Epoch 24 | Train loss: 0.00432 | Val loss: 0.00622 | Combo score: 0.481 | Smoothed: 0.477 | MCC: 0.363 | REC: 0.394 | PRE: 0.391 | AUC: 0.831 | Threshold: 0.02364
+Epoch 25 | Train loss: 0.00427 | Val loss: 0.00578 | Combo score: 0.475 | Smoothed: 0.476 | MCC: 0.354 | REC: 0.386 | PRE: 0.381 | AUC: 0.810 | Threshold: 0.02182
+Epoch 26 | Train loss: 0.00418 | Val loss: 0.00630 | Combo score: 0.482 | Smoothed: 0.477 | MCC: 0.363 | REC: 0.402 | PRE: 0.384 | AUC: 0.835 | Threshold: 0.02520
+Epoch 27 | Train loss: 0.00415 | Val loss: 0.00577 | Combo score: 0.474 | Smoothed: 0.477 | MCC: 0.349 | REC: 0.394 | PRE: 0.366 | AUC: 0.812 | Threshold: 0.02163
+Epoch 28 | Train loss: 0.00464 | Val loss: 0.00609 | Combo score: 0.475 | Smoothed: 0.477 | MCC: 0.347 | REC: 0.424 | PRE: 0.341 | AUC: 0.827 | Threshold: 0.02157
+Epoch 29 | Train loss: 0.00419 | Val loss: 0.00580 | Combo score: 0.476 | Smoothed: 0.476 | MCC: 0.352 | REC: 0.386 | PRE: 0.378 | AUC: 0.817 | Threshold: 0.02183
+Epoch 30 | Train loss: 0.00401 | Val loss: 0.00577 | Combo score: 0.481 | Smoothed: 0.477 | MCC: 0.366 | REC: 0.402 | PRE: 0.390 | AUC: 0.819 | Threshold: 0.02326
+Epoch 31 | Train loss: 0.00398 | Val loss: 0.00573 | Combo score: 0.484 | Smoothed: 0.478 | MCC: 0.371 | REC: 0.386 | PRE: 0.411 | AUC: 0.826 | Threshold: 0.02405
+Epoch 32 | Train loss: 0.00385 | Val loss: 0.00577 | Combo score: 0.482 | Smoothed: 0.478 | MCC: 0.367 | REC: 0.394 | PRE: 0.397 | AUC: 0.821 | Threshold: 0.02563
+Epoch 33 | Train loss: 0.00417 | Val loss: 0.00570 | Combo score: 0.475 | Smoothed: 0.478 | MCC: 0.351 | REC: 0.417 | PRE: 0.353 | AUC: 0.815 | Threshold: 0.02216
+Epoch 34 | Train loss: 0.00390 | Val loss: 0.00647 | Combo score: 0.466 | Smoothed: 0.477 | MCC: 0.327 | REC: 0.364 | PRE: 0.353 | AUC: 0.824 | Threshold: 0.02008
+Epoch 35 | Train loss: 0.00417 | Val loss: 0.00608 | Combo score: 0.480 | Smoothed: 0.477 | MCC: 0.358 | REC: 0.409 | PRE: 0.370 | AUC: 0.835 | Threshold: 0.02406
+Epoch 36 | Train loss: 0.00411 | Val loss: 0.00597 | Combo score: 0.487 | Smoothed: 0.478 | MCC: 0.380 | REC: 0.386 | PRE: 0.429 | AUC: 0.824 | Threshold: 0.02506
+Epoch 37 | Train loss: 0.00382 | Val loss: 0.00579 | Combo score: 0.477 | Smoothed: 0.478 | MCC: 0.355 | REC: 0.394 | PRE: 0.377 | AUC: 0.821 | Threshold: 0.02311
+Epoch 38 | Train loss: 0.00372 | Val loss: 0.00548 | Combo score: 0.477 | Smoothed: 0.478 | MCC: 0.355 | REC: 0.386 | PRE: 0.383 | AUC: 0.818 | Threshold: 0.02244
+Epoch 39 | Train loss: 0.00369 | Val loss: 0.00557 | Combo score: 0.476 | Smoothed: 0.478 | MCC: 0.351 | REC: 0.409 | PRE: 0.358 | AUC: 0.820 | Threshold: 0.02230
+Epoch 40 | Train loss: 0.00362 | Val loss: 0.00532 | Combo score: 0.471 | Smoothed: 0.477 | MCC: 0.341 | REC: 0.409 | PRE: 0.342 | AUC: 0.811 | Threshold: 0.01900
+Epoch 41 | Train loss: 0.00362 | Val loss: 0.00552 | Combo score: 0.479 | Smoothed: 0.477 | MCC: 0.361 | REC: 0.409 | PRE: 0.375 | AUC: 0.818 | Threshold: 0.02342
+Epoch 42 | Train loss: 0.00355 | Val loss: 0.00538 | Combo score: 0.473 | Smoothed: 0.477 | MCC: 0.344 | REC: 0.417 | PRE: 0.342 | AUC: 0.819 | Threshold: 0.02061
+Early stopping at epoch 42 (no improvement in smoothed or combo score over 10 epochs)
+
+--- Fold 6 summary (years: [2010, 2011]) ---
+Best epoch: 6
+Threshold used: 0.02567
+Validation metrics:
+ACC: 94.0%
+PRE: 37.5%
+REC: 45.5%
+MCC: 0.38
+AUC: 0.84
+==================================================
+
+
+==================================================
+Training Bi-LSTM-AE with sequence length: 10_day | Fold 7 (years: [2011, 2012])
+Epoch 01 | Train loss: 0.05957 | Val loss: 0.02811 | Combo score: 0.462 | Smoothed: 0.462 | MCC: 0.340 | REC: 0.284 | PRE: 0.491 | AUC: 0.710 | Threshold: 0.06302
+Epoch 02 | Train loss: 0.02261 | Val loss: 0.01585 | Combo score: 0.402 | Smoothed: 0.456 | MCC: 0.161 | REC: 0.536 | PRE: 0.133 | AUC: 0.702 | Threshold: 0.01984
+Epoch 03 | Train loss: 0.01802 | Val loss: 0.01536 | Combo score: 0.381 | Smoothed: 0.448 | MCC: 0.123 | REC: 0.459 | PRE: 0.120 | AUC: 0.649 | Threshold: 0.02027
+Epoch 04 | Train loss: 0.01714 | Val loss: 0.01486 | Combo score: 0.375 | Smoothed: 0.441 | MCC: 0.104 | REC: 0.552 | PRE: 0.102 | AUC: 0.610 | Threshold: 0.01636
+Epoch 05 | Train loss: 0.01456 | Val loss: 0.01229 | Combo score: 0.397 | Smoothed: 0.437 | MCC: 0.182 | REC: 0.278 | PRE: 0.215 | AUC: 0.681 | Threshold: 0.02105
+Epoch 06 | Train loss: 0.01119 | Val loss: 0.01138 | Combo score: 0.415 | Smoothed: 0.434 | MCC: 0.212 | REC: 0.366 | PRE: 0.215 | AUC: 0.719 | Threshold: 0.01932
+Epoch 07 | Train loss: 0.01073 | Val loss: 0.01122 | Combo score: 0.418 | Smoothed: 0.433 | MCC: 0.209 | REC: 0.546 | PRE: 0.165 | AUC: 0.696 | Threshold: 0.01517
+Epoch 08 | Train loss: 0.01023 | Val loss: 0.01171 | Combo score: 0.420 | Smoothed: 0.431 | MCC: 0.223 | REC: 0.325 | PRE: 0.246 | AUC: 0.749 | Threshold: 0.02248
+Epoch 09 | Train loss: 0.00986 | Val loss: 0.01070 | Combo score: 0.432 | Smoothed: 0.432 | MCC: 0.247 | REC: 0.438 | PRE: 0.227 | AUC: 0.745 | Threshold: 0.01745
+Epoch 10 | Train loss: 0.00947 | Val loss: 0.01046 | Combo score: 0.439 | Smoothed: 0.432 | MCC: 0.260 | REC: 0.454 | PRE: 0.237 | AUC: 0.768 | Threshold: 0.01811
+Epoch 11 | Train loss: 0.00922 | Val loss: 0.01050 | Combo score: 0.453 | Smoothed: 0.434 | MCC: 0.296 | REC: 0.510 | PRE: 0.256 | AUC: 0.754 | Threshold: 0.01843
+Epoch 12 | Train loss: 0.00904 | Val loss: 0.01030 | Combo score: 0.400 | Smoothed: 0.431 | MCC: 0.184 | REC: 0.345 | PRE: 0.191 | AUC: 0.680 | Threshold: 0.01754
+Epoch 13 | Train loss: 0.00890 | Val loss: 0.01089 | Combo score: 0.441 | Smoothed: 0.432 | MCC: 0.265 | REC: 0.526 | PRE: 0.218 | AUC: 0.744 | Threshold: 0.01761
+Epoch 14 | Train loss: 0.00875 | Val loss: 0.01070 | Combo score: 0.445 | Smoothed: 0.433 | MCC: 0.295 | REC: 0.294 | PRE: 0.385 | AUC: 0.721 | Threshold: 0.02253
+Epoch 15 | Train loss: 0.00863 | Val loss: 0.00984 | Combo score: 0.409 | Smoothed: 0.431 | MCC: 0.205 | REC: 0.325 | PRE: 0.223 | AUC: 0.700 | Threshold: 0.01793
+Epoch 16 | Train loss: 0.00840 | Val loss: 0.00970 | Combo score: 0.418 | Smoothed: 0.429 | MCC: 0.231 | REC: 0.304 | PRE: 0.269 | AUC: 0.701 | Threshold: 0.01872
+Epoch 17 | Train loss: 0.00824 | Val loss: 0.01003 | Combo score: 0.432 | Smoothed: 0.430 | MCC: 0.254 | REC: 0.438 | PRE: 0.235 | AUC: 0.718 | Threshold: 0.01889
+Epoch 18 | Train loss: 0.00823 | Val loss: 0.00957 | Combo score: 0.432 | Smoothed: 0.430 | MCC: 0.261 | REC: 0.485 | PRE: 0.227 | AUC: 0.678 | Threshold: 0.01640
+Epoch 19 | Train loss: 0.00796 | Val loss: 0.00938 | Combo score: 0.432 | Smoothed: 0.430 | MCC: 0.267 | REC: 0.485 | PRE: 0.233 | AUC: 0.660 | Threshold: 0.01607
+Epoch 20 | Train loss: 0.00786 | Val loss: 0.00943 | Combo score: 0.438 | Smoothed: 0.431 | MCC: 0.281 | REC: 0.448 | PRE: 0.263 | AUC: 0.682 | Threshold: 0.01768
+Epoch 21 | Train loss: 0.00634 | Val loss: 0.00737 | Combo score: 0.473 | Smoothed: 0.435 | MCC: 0.358 | REC: 0.423 | PRE: 0.385 | AUC: 0.747 | Threshold: 0.02040
+Epoch 22 | Train loss: 0.00577 | Val loss: 0.00660 | Combo score: 0.469 | Smoothed: 0.438 | MCC: 0.348 | REC: 0.443 | PRE: 0.355 | AUC: 0.743 | Threshold: 0.01638
+Epoch 23 | Train loss: 0.00550 | Val loss: 0.00635 | Combo score: 0.472 | Smoothed: 0.442 | MCC: 0.355 | REC: 0.454 | PRE: 0.359 | AUC: 0.751 | Threshold: 0.01583
+Epoch 24 | Train loss: 0.00565 | Val loss: 0.00661 | Combo score: 0.470 | Smoothed: 0.445 | MCC: 0.343 | REC: 0.469 | PRE: 0.333 | AUC: 0.770 | Threshold: 0.01457
+Epoch 25 | Train loss: 0.00535 | Val loss: 0.00606 | Combo score: 0.472 | Smoothed: 0.447 | MCC: 0.349 | REC: 0.474 | PRE: 0.338 | AUC: 0.771 | Threshold: 0.01452
+Epoch 26 | Train loss: 0.00516 | Val loss: 0.00630 | Combo score: 0.477 | Smoothed: 0.450 | MCC: 0.362 | REC: 0.454 | PRE: 0.370 | AUC: 0.768 | Threshold: 0.01800
+Epoch 27 | Train loss: 0.00505 | Val loss: 0.00632 | Combo score: 0.481 | Smoothed: 0.453 | MCC: 0.374 | REC: 0.454 | PRE: 0.388 | AUC: 0.764 | Threshold: 0.01935
+Epoch 28 | Train loss: 0.00491 | Val loss: 0.00590 | Combo score: 0.478 | Smoothed: 0.456 | MCC: 0.359 | REC: 0.479 | PRE: 0.350 | AUC: 0.783 | Threshold: 0.01509
+Epoch 29 | Train loss: 0.00484 | Val loss: 0.00579 | Combo score: 0.471 | Smoothed: 0.457 | MCC: 0.343 | REC: 0.469 | PRE: 0.332 | AUC: 0.779 | Threshold: 0.01488
+Epoch 30 | Train loss: 0.00477 | Val loss: 0.00571 | Combo score: 0.468 | Smoothed: 0.458 | MCC: 0.342 | REC: 0.469 | PRE: 0.331 | AUC: 0.759 | Threshold: 0.01519
+Epoch 31 | Train loss: 0.00465 | Val loss: 0.00559 | Combo score: 0.475 | Smoothed: 0.460 | MCC: 0.353 | REC: 0.454 | PRE: 0.356 | AUC: 0.781 | Threshold: 0.01559
+Epoch 32 | Train loss: 0.00452 | Val loss: 0.00543 | Combo score: 0.467 | Smoothed: 0.461 | MCC: 0.339 | REC: 0.464 | PRE: 0.330 | AUC: 0.762 | Threshold: 0.01388
+Epoch 33 | Train loss: 0.00446 | Val loss: 0.00528 | Combo score: 0.461 | Smoothed: 0.461 | MCC: 0.317 | REC: 0.469 | PRE: 0.297 | AUC: 0.773 | Threshold: 0.01286
+Epoch 34 | Train loss: 0.00437 | Val loss: 0.00544 | Combo score: 0.475 | Smoothed: 0.462 | MCC: 0.354 | REC: 0.464 | PRE: 0.352 | AUC: 0.781 | Threshold: 0.01571
+Epoch 35 | Train loss: 0.00430 | Val loss: 0.00505 | Combo score: 0.474 | Smoothed: 0.463 | MCC: 0.346 | REC: 0.469 | PRE: 0.337 | AUC: 0.796 | Threshold: 0.01439
+Epoch 36 | Train loss: 0.00361 | Val loss: 0.00341 | Combo score: 0.414 | Smoothed: 0.458 | MCC: 0.170 | REC: 0.778 | PRE: 0.113 | AUC: 0.688 | Threshold: 0.00281
+Epoch 37 | Train loss: 0.00337 | Val loss: 0.00363 | Combo score: 0.375 | Smoothed: 0.450 | MCC: 0.142 | REC: 0.129 | PRE: 0.258 | AUC: 0.629 | Threshold: 0.00869
+Epoch 38 | Train loss: 0.00326 | Val loss: 0.00351 | Combo score: 0.378 | Smoothed: 0.443 | MCC: 0.141 | REC: 0.160 | PRE: 0.225 | AUC: 0.661 | Threshold: 0.00787
+Epoch 39 | Train loss: 0.00310 | Val loss: 0.00342 | Combo score: 0.376 | Smoothed: 0.436 | MCC: 0.134 | REC: 0.191 | PRE: 0.193 | AUC: 0.664 | Threshold: 0.00700
+Epoch 40 | Train loss: 0.00299 | Val loss: 0.00333 | Combo score: 0.371 | Smoothed: 0.430 | MCC: 0.125 | REC: 0.149 | PRE: 0.206 | AUC: 0.654 | Threshold: 0.00733
+Epoch 41 | Train loss: 0.00288 | Val loss: 0.00328 | Combo score: 0.391 | Smoothed: 0.426 | MCC: 0.126 | REC: 0.639 | PRE: 0.105 | AUC: 0.657 | Threshold: 0.00294
+Epoch 42 | Train loss: 0.00283 | Val loss: 0.00330 | Combo score: 0.383 | Smoothed: 0.421 | MCC: 0.152 | REC: 0.186 | PRE: 0.224 | AUC: 0.672 | Threshold: 0.00731
+Epoch 43 | Train loss: 0.00275 | Val loss: 0.00302 | Combo score: 0.377 | Smoothed: 0.417 | MCC: 0.138 | REC: 0.139 | PRE: 0.239 | AUC: 0.666 | Threshold: 0.00723
+Epoch 44 | Train loss: 0.00303 | Val loss: 0.00310 | Combo score: 0.360 | Smoothed: 0.411 | MCC: 0.102 | REC: 0.170 | PRE: 0.159 | AUC: 0.629 | Threshold: 0.00632
+Epoch 45 | Train loss: 0.00271 | Val loss: 0.00284 | Combo score: 0.386 | Smoothed: 0.409 | MCC: 0.131 | REC: 0.454 | PRE: 0.125 | AUC: 0.675 | Threshold: 0.00359
+Early stopping at epoch 45 (no improvement in smoothed or combo score over 10 epochs)
+
+--- Fold 7 summary (years: [2011, 2012]) ---
+Best epoch: 27
+Threshold used: 0.01935
+Validation metrics:
+ACC: 91.5%
+PRE: 38.8%
+REC: 45.4%
+MCC: 0.37
+AUC: 0.76
+==================================================
+
+
+==================================================
+Training Bi-LSTM-AE with sequence length: 10_day | Fold 8 (years: [2012, 2013])
+Epoch 01 | Train loss: 0.05505 | Val loss: 0.01865 | Combo score: 0.459 | Smoothed: 0.459 | MCC: 0.285 | REC: 0.711 | PRE: 0.225 | AUC: 0.761 | Threshold: 0.02271
+Epoch 02 | Train loss: 0.01587 | Val loss: 0.01192 | Combo score: 0.456 | Smoothed: 0.458 | MCC: 0.273 | REC: 0.729 | PRE: 0.212 | AUC: 0.770 | Threshold: 0.01417
+Epoch 03 | Train loss: 0.01329 | Val loss: 0.01157 | Combo score: 0.409 | Smoothed: 0.453 | MCC: 0.171 | REC: 0.711 | PRE: 0.155 | AUC: 0.638 | Threshold: 0.01144
+Epoch 04 | Train loss: 0.01214 | Val loss: 0.01098 | Combo score: 0.453 | Smoothed: 0.453 | MCC: 0.267 | REC: 0.715 | PRE: 0.211 | AUC: 0.766 | Threshold: 0.01311
+Epoch 05 | Train loss: 0.01165 | Val loss: 0.01036 | Combo score: 0.423 | Smoothed: 0.450 | MCC: 0.218 | REC: 0.419 | PRE: 0.242 | AUC: 0.745 | Threshold: 0.01644
+Epoch 06 | Train loss: 0.01125 | Val loss: 0.00993 | Combo score: 0.427 | Smoothed: 0.448 | MCC: 0.205 | REC: 0.711 | PRE: 0.172 | AUC: 0.713 | Threshold: 0.01001
+Epoch 07 | Train loss: 0.01129 | Val loss: 0.00987 | Combo score: 0.396 | Smoothed: 0.443 | MCC: 0.162 | REC: 0.352 | PRE: 0.205 | AUC: 0.693 | Threshold: 0.01586
+Epoch 08 | Train loss: 0.01086 | Val loss: 0.01049 | Combo score: 0.467 | Smoothed: 0.445 | MCC: 0.301 | REC: 0.711 | PRE: 0.237 | AUC: 0.798 | Threshold: 0.01299
+Epoch 09 | Train loss: 0.01065 | Val loss: 0.00993 | Combo score: 0.412 | Smoothed: 0.442 | MCC: 0.200 | REC: 0.370 | PRE: 0.239 | AUC: 0.712 | Threshold: 0.01711
+Epoch 10 | Train loss: 0.01054 | Val loss: 0.01004 | Combo score: 0.416 | Smoothed: 0.439 | MCC: 0.211 | REC: 0.377 | PRE: 0.248 | AUC: 0.719 | Threshold: 0.01813
+Epoch 11 | Train loss: 0.01054 | Val loss: 0.00963 | Combo score: 0.426 | Smoothed: 0.438 | MCC: 0.202 | REC: 0.715 | PRE: 0.170 | AUC: 0.709 | Threshold: 0.01004
+Epoch 12 | Train loss: 0.01037 | Val loss: 0.00971 | Combo score: 0.413 | Smoothed: 0.435 | MCC: 0.200 | REC: 0.377 | PRE: 0.237 | AUC: 0.721 | Threshold: 0.01637
+Epoch 13 | Train loss: 0.01066 | Val loss: 0.01070 | Combo score: 0.423 | Smoothed: 0.434 | MCC: 0.203 | REC: 0.599 | PRE: 0.188 | AUC: 0.723 | Threshold: 0.01208
+Epoch 14 | Train loss: 0.01127 | Val loss: 0.01009 | Combo score: 0.455 | Smoothed: 0.436 | MCC: 0.271 | REC: 0.746 | PRE: 0.207 | AUC: 0.758 | Threshold: 0.01184
+Epoch 15 | Train loss: 0.01031 | Val loss: 0.00965 | Combo score: 0.443 | Smoothed: 0.437 | MCC: 0.245 | REC: 0.750 | PRE: 0.190 | AUC: 0.729 | Threshold: 0.01008
+Epoch 16 | Train loss: 0.01009 | Val loss: 0.00933 | Combo score: 0.433 | Smoothed: 0.436 | MCC: 0.219 | REC: 0.701 | PRE: 0.182 | AUC: 0.728 | Threshold: 0.00996
+Epoch 17 | Train loss: 0.00985 | Val loss: 0.00948 | Combo score: 0.426 | Smoothed: 0.435 | MCC: 0.229 | REC: 0.366 | PRE: 0.274 | AUC: 0.751 | Threshold: 0.01718
+Epoch 18 | Train loss: 0.00954 | Val loss: 0.00899 | Combo score: 0.437 | Smoothed: 0.436 | MCC: 0.227 | REC: 0.761 | PRE: 0.177 | AUC: 0.724 | Threshold: 0.00865
+Epoch 19 | Train loss: 0.00932 | Val loss: 0.00902 | Combo score: 0.422 | Smoothed: 0.434 | MCC: 0.224 | REC: 0.373 | PRE: 0.264 | AUC: 0.734 | Threshold: 0.01694
+Epoch 20 | Train loss: 0.00864 | Val loss: 0.00766 | Combo score: 0.459 | Smoothed: 0.437 | MCC: 0.307 | REC: 0.356 | PRE: 0.390 | AUC: 0.793 | Threshold: 0.01834
+Epoch 21 | Train loss: 0.00763 | Val loss: 0.00698 | Combo score: 0.453 | Smoothed: 0.438 | MCC: 0.288 | REC: 0.405 | PRE: 0.330 | AUC: 0.796 | Threshold: 0.01401
+Epoch 22 | Train loss: 0.00712 | Val loss: 0.00671 | Combo score: 0.470 | Smoothed: 0.442 | MCC: 0.314 | REC: 0.613 | PRE: 0.275 | AUC: 0.817 | Threshold: 0.00935
+Epoch 23 | Train loss: 0.00675 | Val loss: 0.00686 | Combo score: 0.472 | Smoothed: 0.445 | MCC: 0.327 | REC: 0.482 | PRE: 0.341 | AUC: 0.825 | Threshold: 0.01189
+Epoch 24 | Train loss: 0.00682 | Val loss: 0.00645 | Combo score: 0.490 | Smoothed: 0.449 | MCC: 0.353 | REC: 0.746 | PRE: 0.271 | AUC: 0.830 | Threshold: 0.00808
+Epoch 25 | Train loss: 0.00637 | Val loss: 0.00635 | Combo score: 0.471 | Smoothed: 0.451 | MCC: 0.327 | REC: 0.486 | PRE: 0.339 | AUC: 0.817 | Threshold: 0.01098
+Epoch 26 | Train loss: 0.00623 | Val loss: 0.00608 | Combo score: 0.458 | Smoothed: 0.452 | MCC: 0.298 | REC: 0.447 | PRE: 0.321 | AUC: 0.802 | Threshold: 0.01170
+Epoch 27 | Train loss: 0.00608 | Val loss: 0.00663 | Combo score: 0.489 | Smoothed: 0.456 | MCC: 0.355 | REC: 0.708 | PRE: 0.284 | AUC: 0.831 | Threshold: 0.00833
+Epoch 28 | Train loss: 0.00582 | Val loss: 0.00580 | Combo score: 0.489 | Smoothed: 0.459 | MCC: 0.353 | REC: 0.746 | PRE: 0.270 | AUC: 0.823 | Threshold: 0.00702
+Epoch 29 | Train loss: 0.00561 | Val loss: 0.00630 | Combo score: 0.471 | Smoothed: 0.460 | MCC: 0.325 | REC: 0.482 | PRE: 0.337 | AUC: 0.821 | Threshold: 0.01088
+Epoch 30 | Train loss: 0.00748 | Val loss: 0.00650 | Combo score: 0.512 | Smoothed: 0.465 | MCC: 0.409 | REC: 0.785 | PRE: 0.309 | AUC: 0.850 | Threshold: 0.00781
+Epoch 31 | Train loss: 0.00573 | Val loss: 0.00548 | Combo score: 0.467 | Smoothed: 0.466 | MCC: 0.325 | REC: 0.465 | PRE: 0.347 | AUC: 0.792 | Threshold: 0.01023
+Epoch 32 | Train loss: 0.00526 | Val loss: 0.00555 | Combo score: 0.469 | Smoothed: 0.466 | MCC: 0.334 | REC: 0.398 | PRE: 0.401 | AUC: 0.791 | Threshold: 0.01681
+Epoch 33 | Train loss: 0.00506 | Val loss: 0.00508 | Combo score: 0.459 | Smoothed: 0.465 | MCC: 0.316 | REC: 0.458 | PRE: 0.339 | AUC: 0.742 | Threshold: 0.01023
+Epoch 34 | Train loss: 0.00491 | Val loss: 0.00550 | Combo score: 0.469 | Smoothed: 0.466 | MCC: 0.342 | REC: 0.398 | PRE: 0.414 | AUC: 0.760 | Threshold: 0.01662
+Epoch 35 | Train loss: 0.00482 | Val loss: 0.00513 | Combo score: 0.468 | Smoothed: 0.466 | MCC: 0.336 | REC: 0.451 | PRE: 0.369 | AUC: 0.766 | Threshold: 0.01123
+Epoch 36 | Train loss: 0.00473 | Val loss: 0.00486 | Combo score: 0.461 | Smoothed: 0.465 | MCC: 0.321 | REC: 0.451 | PRE: 0.350 | AUC: 0.748 | Threshold: 0.01069
+Epoch 37 | Train loss: 0.00461 | Val loss: 0.00497 | Combo score: 0.456 | Smoothed: 0.465 | MCC: 0.313 | REC: 0.401 | PRE: 0.367 | AUC: 0.739 | Threshold: 0.01293
+Epoch 38 | Train loss: 0.00454 | Val loss: 0.00488 | Combo score: 0.456 | Smoothed: 0.464 | MCC: 0.309 | REC: 0.401 | PRE: 0.361 | AUC: 0.756 | Threshold: 0.01192
+Epoch 39 | Train loss: 0.00447 | Val loss: 0.00501 | Combo score: 0.459 | Smoothed: 0.463 | MCC: 0.315 | REC: 0.401 | PRE: 0.370 | AUC: 0.754 | Threshold: 0.01329
+Epoch 40 | Train loss: 0.00444 | Val loss: 0.00497 | Combo score: 0.459 | Smoothed: 0.463 | MCC: 0.316 | REC: 0.401 | PRE: 0.371 | AUC: 0.751 | Threshold: 0.01409
+Epoch 41 | Train loss: 0.00429 | Val loss: 0.00476 | Combo score: 0.453 | Smoothed: 0.462 | MCC: 0.306 | REC: 0.394 | PRE: 0.361 | AUC: 0.729 | Threshold: 0.01264
+Epoch 42 | Train loss: 0.00348 | Val loss: 0.00288 | Combo score: 0.410 | Smoothed: 0.457 | MCC: 0.168 | REC: 0.722 | PRE: 0.152 | AUC: 0.658 | Threshold: 0.00248
+Early stopping at epoch 42 (no improvement in smoothed or combo score over 10 epochs)
+
+--- Fold 8 summary (years: [2012, 2013]) ---
+Best epoch: 30
+Threshold used: 0.00781
+Validation metrics:
+ACC: 80.6%
+PRE: 30.9%
+REC: 78.5%
+MCC: 0.41
+AUC: 0.85
+==================================================
+
+
+==================================================
+Training Bi-LSTM-AE with sequence length: 10_day | Fold 9 (years: [2013, 2014])
+Epoch 01 | Train loss: 0.06351 | Val loss: 0.03728 | Combo score: 0.500 | Smoothed: 0.500 | MCC: 0.428 | REC: 0.458 | PRE: 0.515 | AUC: 0.732 | Threshold: 0.07417
+Epoch 02 | Train loss: 0.01906 | Val loss: 0.01506 | Combo score: 0.496 | Smoothed: 0.500 | MCC: 0.385 | REC: 0.578 | PRE: 0.375 | AUC: 0.831 | Threshold: 0.02147
+Epoch 03 | Train loss: 0.01293 | Val loss: 0.01112 | Combo score: 0.414 | Smoothed: 0.491 | MCC: 0.189 | REC: 0.594 | PRE: 0.189 | AUC: 0.679 | Threshold: 0.01262
+Epoch 04 | Train loss: 0.01174 | Val loss: 0.01058 | Combo score: 0.419 | Smoothed: 0.484 | MCC: 0.205 | REC: 0.558 | PRE: 0.206 | AUC: 0.687 | Threshold: 0.01313
+Epoch 05 | Train loss: 0.01116 | Val loss: 0.01079 | Combo score: 0.455 | Smoothed: 0.481 | MCC: 0.278 | REC: 0.617 | PRE: 0.251 | AUC: 0.778 | Threshold: 0.01395
+Epoch 06 | Train loss: 0.01063 | Val loss: 0.00965 | Combo score: 0.434 | Smoothed: 0.476 | MCC: 0.255 | REC: 0.461 | PRE: 0.276 | AUC: 0.708 | Threshold: 0.01417
+Epoch 07 | Train loss: 0.00964 | Val loss: 0.00773 | Combo score: 0.434 | Smoothed: 0.472 | MCC: 0.248 | REC: 0.455 | PRE: 0.271 | AUC: 0.737 | Threshold: 0.01146
+Epoch 08 | Train loss: 0.00864 | Val loss: 0.00662 | Combo score: 0.398 | Smoothed: 0.465 | MCC: 0.160 | REC: 0.468 | PRE: 0.189 | AUC: 0.669 | Threshold: 0.00819
+Epoch 09 | Train loss: 0.00790 | Val loss: 0.00609 | Combo score: 0.404 | Smoothed: 0.459 | MCC: 0.200 | REC: 0.289 | PRE: 0.284 | AUC: 0.655 | Threshold: 0.01058
+Epoch 10 | Train loss: 0.00721 | Val loss: 0.00569 | Combo score: 0.375 | Smoothed: 0.450 | MCC: 0.129 | REC: 0.432 | PRE: 0.173 | AUC: 0.565 | Threshold: 0.00690
+Epoch 11 | Train loss: 0.00678 | Val loss: 0.00505 | Combo score: 0.371 | Smoothed: 0.442 | MCC: 0.122 | REC: 0.364 | PRE: 0.179 | AUC: 0.573 | Threshold: 0.00684
+Epoch 12 | Train loss: 0.00618 | Val loss: 0.00453 | Combo score: 0.391 | Smoothed: 0.437 | MCC: 0.168 | REC: 0.393 | PRE: 0.212 | AUC: 0.607 | Threshold: 0.00655
+Epoch 13 | Train loss: 0.00562 | Val loss: 0.00437 | Combo score: 0.385 | Smoothed: 0.432 | MCC: 0.160 | REC: 0.390 | PRE: 0.204 | AUC: 0.571 | Threshold: 0.00621
+Epoch 14 | Train loss: 0.00529 | Val loss: 0.00414 | Combo score: 0.387 | Smoothed: 0.428 | MCC: 0.145 | REC: 0.412 | PRE: 0.188 | AUC: 0.635 | Threshold: 0.00554
+Epoch 15 | Train loss: 0.00500 | Val loss: 0.00422 | Combo score: 0.413 | Smoothed: 0.426 | MCC: 0.216 | REC: 0.396 | PRE: 0.257 | AUC: 0.652 | Threshold: 0.00697
+Epoch 16 | Train loss: 0.00476 | Val loss: 0.00358 | Combo score: 0.365 | Smoothed: 0.420 | MCC: 0.061 | REC: 0.695 | PRE: 0.122 | AUC: 0.556 | Threshold: 0.00252
+Epoch 17 | Train loss: 0.00449 | Val loss: 0.00363 | Combo score: 0.370 | Smoothed: 0.415 | MCC: 0.066 | REC: 0.776 | PRE: 0.121 | AUC: 0.554 | Threshold: 0.00228
+Epoch 18 | Train loss: 0.00433 | Val loss: 0.00333 | Combo score: 0.376 | Smoothed: 0.411 | MCC: 0.080 | REC: 0.756 | PRE: 0.125 | AUC: 0.580 | Threshold: 0.00223
+Epoch 19 | Train loss: 0.00417 | Val loss: 0.00340 | Combo score: 0.389 | Smoothed: 0.409 | MCC: 0.131 | REC: 0.568 | PRE: 0.158 | AUC: 0.637 | Threshold: 0.00340
+Epoch 20 | Train loss: 0.00400 | Val loss: 0.00314 | Combo score: 0.379 | Smoothed: 0.406 | MCC: 0.112 | REC: 0.549 | PRE: 0.150 | AUC: 0.609 | Threshold: 0.00294
+Epoch 21 | Train loss: 0.00391 | Val loss: 0.00309 | Combo score: 0.382 | Smoothed: 0.404 | MCC: 0.117 | REC: 0.568 | PRE: 0.151 | AUC: 0.613 | Threshold: 0.00289
+Epoch 22 | Train loss: 0.00359 | Val loss: 0.00316 | Combo score: 0.417 | Smoothed: 0.405 | MCC: 0.195 | REC: 0.614 | PRE: 0.190 | AUC: 0.680 | Threshold: 0.00334
+Epoch 23 | Train loss: 0.00343 | Val loss: 0.00292 | Combo score: 0.384 | Smoothed: 0.403 | MCC: 0.123 | REC: 0.536 | PRE: 0.157 | AUC: 0.620 | Threshold: 0.00293
+Epoch 24 | Train loss: 0.00329 | Val loss: 0.00293 | Combo score: 0.400 | Smoothed: 0.403 | MCC: 0.145 | REC: 0.682 | PRE: 0.154 | AUC: 0.651 | Threshold: 0.00246
+Early stopping at epoch 24 (no improvement in smoothed or combo score over 10 epochs)
+
+--- Fold 9 summary (years: [2013, 2014]) ---
+Best epoch: 1
+Threshold used: 0.07417
+Validation metrics:
+ACC: 89.6%
+PRE: 51.5%
+REC: 45.8%
+MCC: 0.43
+AUC: 0.73
+==================================================
+
+
+==================================================
+Training Bi-LSTM-AE with sequence length: 10_day | Fold 10 (years: [2014, 2015])
+Epoch 01 | Train loss: 0.05826 | Val loss: 0.03620 | Combo score: 0.434 | Smoothed: 0.434 | MCC: 0.290 | REC: 0.382 | PRE: 0.351 | AUC: 0.609 | Threshold: 0.07217
+Epoch 02 | Train loss: 0.03106 | Val loss: 0.03219 | Combo score: 0.435 | Smoothed: 0.434 | MCC: 0.287 | REC: 0.348 | PRE: 0.369 | AUC: 0.625 | Threshold: 0.05552
+Epoch 03 | Train loss: 0.01970 | Val loss: 0.01791 | Combo score: 0.456 | Smoothed: 0.437 | MCC: 0.285 | REC: 0.635 | PRE: 0.248 | AUC: 0.767 | Threshold: 0.02314
+Epoch 04 | Train loss: 0.01413 | Val loss: 0.01354 | Combo score: 0.510 | Smoothed: 0.444 | MCC: 0.414 | REC: 0.628 | PRE: 0.381 | AUC: 0.853 | Threshold: 0.02080
+Epoch 05 | Train loss: 0.01202 | Val loss: 0.01097 | Combo score: 0.461 | Smoothed: 0.446 | MCC: 0.300 | REC: 0.605 | PRE: 0.269 | AUC: 0.778 | Threshold: 0.01477
+Epoch 06 | Train loss: 0.01102 | Val loss: 0.01048 | Combo score: 0.425 | Smoothed: 0.444 | MCC: 0.228 | REC: 0.490 | PRE: 0.236 | AUC: 0.699 | Threshold: 0.01455
+Epoch 07 | Train loss: 0.01069 | Val loss: 0.01040 | Combo score: 0.422 | Smoothed: 0.441 | MCC: 0.220 | REC: 0.527 | PRE: 0.219 | AUC: 0.685 | Threshold: 0.01368
+Epoch 08 | Train loss: 0.01036 | Val loss: 0.01011 | Combo score: 0.458 | Smoothed: 0.443 | MCC: 0.313 | REC: 0.443 | PRE: 0.347 | AUC: 0.747 | Threshold: 0.01684
+Epoch 09 | Train loss: 0.00981 | Val loss: 0.00865 | Combo score: 0.463 | Smoothed: 0.445 | MCC: 0.325 | REC: 0.470 | PRE: 0.349 | AUC: 0.746 | Threshold: 0.01351
+Epoch 10 | Train loss: 0.00846 | Val loss: 0.00748 | Combo score: 0.472 | Smoothed: 0.448 | MCC: 0.351 | REC: 0.422 | PRE: 0.414 | AUC: 0.753 | Threshold: 0.01432
+Epoch 11 | Train loss: 0.00732 | Val loss: 0.00666 | Combo score: 0.474 | Smoothed: 0.450 | MCC: 0.356 | REC: 0.416 | PRE: 0.427 | AUC: 0.750 | Threshold: 0.01389
+Epoch 12 | Train loss: 0.00683 | Val loss: 0.00677 | Combo score: 0.491 | Smoothed: 0.454 | MCC: 0.398 | REC: 0.486 | PRE: 0.440 | AUC: 0.755 | Threshold: 0.01352
+Epoch 13 | Train loss: 0.00656 | Val loss: 0.00655 | Combo score: 0.500 | Smoothed: 0.459 | MCC: 0.418 | REC: 0.473 | PRE: 0.481 | AUC: 0.774 | Threshold: 0.01537
+Epoch 14 | Train loss: 0.00611 | Val loss: 0.00428 | Combo score: 0.423 | Smoothed: 0.456 | MCC: 0.216 | REC: 0.574 | PRE: 0.206 | AUC: 0.696 | Threshold: 0.00518
+Epoch 15 | Train loss: 0.00524 | Val loss: 0.00439 | Combo score: 0.426 | Smoothed: 0.453 | MCC: 0.218 | REC: 0.605 | PRE: 0.202 | AUC: 0.705 | Threshold: 0.00509
+Epoch 16 | Train loss: 0.00482 | Val loss: 0.00427 | Combo score: 0.429 | Smoothed: 0.450 | MCC: 0.227 | REC: 0.591 | PRE: 0.212 | AUC: 0.703 | Threshold: 0.00503
+Epoch 17 | Train loss: 0.00453 | Val loss: 0.00387 | Combo score: 0.390 | Smoothed: 0.444 | MCC: 0.142 | REC: 0.486 | PRE: 0.170 | AUC: 0.643 | Threshold: 0.00441
+Epoch 18 | Train loss: 0.00432 | Val loss: 0.00349 | Combo score: 0.389 | Smoothed: 0.439 | MCC: 0.142 | REC: 0.463 | PRE: 0.173 | AUC: 0.644 | Threshold: 0.00431
+Epoch 19 | Train loss: 0.00401 | Val loss: 0.00331 | Combo score: 0.395 | Smoothed: 0.434 | MCC: 0.141 | REC: 0.622 | PRE: 0.154 | AUC: 0.643 | Threshold: 0.00335
+Epoch 20 | Train loss: 0.00400 | Val loss: 0.00344 | Combo score: 0.407 | Smoothed: 0.432 | MCC: 0.168 | REC: 0.639 | PRE: 0.166 | AUC: 0.668 | Threshold: 0.00361
+Epoch 21 | Train loss: 0.00369 | Val loss: 0.00317 | Combo score: 0.398 | Smoothed: 0.428 | MCC: 0.165 | REC: 0.470 | PRE: 0.188 | AUC: 0.662 | Threshold: 0.00389
+Epoch 22 | Train loss: 0.00351 | Val loss: 0.00302 | Combo score: 0.404 | Smoothed: 0.426 | MCC: 0.144 | REC: 0.777 | PRE: 0.141 | AUC: 0.645 | Threshold: 0.00232
+Epoch 23 | Train loss: 0.00354 | Val loss: 0.00303 | Combo score: 0.381 | Smoothed: 0.421 | MCC: 0.121 | REC: 0.483 | PRE: 0.157 | AUC: 0.628 | Threshold: 0.00355
+Epoch 24 | Train loss: 0.00341 | Val loss: 0.00390 | Combo score: 0.379 | Smoothed: 0.417 | MCC: 0.075 | REC: 0.919 | PRE: 0.113 | AUC: 0.552 | Threshold: 0.00172
+Early stopping at epoch 24 (no improvement in smoothed or combo score over 10 epochs)
+
+--- Fold 10 summary (years: [2014, 2015]) ---
+Best epoch: 4
+Threshold used: 0.02080
+Validation metrics:
+ACC: 85.7%
+PRE: 38.1%
+REC: 62.8%
+MCC: 0.41
+AUC: 0.85
+==================================================
+
+
+==================================================
+Training Bi-LSTM-AE with sequence length: 10_day | Fold 11 (years: [2015, 2016])
+Epoch 01 | Train loss: 0.06514 | Val loss: 0.03525 | Combo score: 0.401 | Smoothed: 0.401 | MCC: 0.197 | REC: 0.337 | PRE: 0.243 | AUC: 0.628 | Threshold: 0.06514
+Epoch 02 | Train loss: 0.02483 | Val loss: 0.01700 | Combo score: 0.471 | Smoothed: 0.408 | MCC: 0.315 | REC: 0.634 | PRE: 0.265 | AUC: 0.813 | Threshold: 0.02466
+Epoch 03 | Train loss: 0.01341 | Val loss: 0.01324 | Combo score: 0.443 | Smoothed: 0.411 | MCC: 0.254 | REC: 0.557 | PRE: 0.231 | AUC: 0.771 | Threshold: 0.01793
+Epoch 04 | Train loss: 0.01204 | Val loss: 0.01231 | Combo score: 0.425 | Smoothed: 0.413 | MCC: 0.188 | REC: 0.868 | PRE: 0.141 | AUC: 0.679 | Threshold: 0.00978
+Epoch 05 | Train loss: 0.01100 | Val loss: 0.01207 | Combo score: 0.414 | Smoothed: 0.413 | MCC: 0.197 | REC: 0.451 | PRE: 0.208 | AUC: 0.718 | Threshold: 0.01720
+Epoch 06 | Train loss: 0.01057 | Val loss: 0.01185 | Combo score: 0.420 | Smoothed: 0.414 | MCC: 0.216 | REC: 0.443 | PRE: 0.228 | AUC: 0.716 | Threshold: 0.01821
+Epoch 07 | Train loss: 0.01026 | Val loss: 0.01181 | Combo score: 0.409 | Smoothed: 0.413 | MCC: 0.189 | REC: 0.484 | PRE: 0.194 | AUC: 0.689 | Threshold: 0.01564
+Epoch 08 | Train loss: 0.00998 | Val loss: 0.01179 | Combo score: 0.428 | Smoothed: 0.415 | MCC: 0.241 | REC: 0.425 | PRE: 0.259 | AUC: 0.714 | Threshold: 0.02017
+Epoch 09 | Train loss: 0.00980 | Val loss: 0.01123 | Combo score: 0.423 | Smoothed: 0.415 | MCC: 0.226 | REC: 0.465 | PRE: 0.231 | AUC: 0.703 | Threshold: 0.01737
+Epoch 10 | Train loss: 0.00953 | Val loss: 0.01113 | Combo score: 0.402 | Smoothed: 0.414 | MCC: 0.168 | REC: 0.465 | PRE: 0.181 | AUC: 0.691 | Threshold: 0.01475
+Epoch 11 | Train loss: 0.00932 | Val loss: 0.01053 | Combo score: 0.415 | Smoothed: 0.414 | MCC: 0.203 | REC: 0.458 | PRE: 0.212 | AUC: 0.703 | Threshold: 0.01553
+Epoch 12 | Train loss: 0.00834 | Val loss: 0.00894 | Combo score: 0.452 | Smoothed: 0.418 | MCC: 0.291 | REC: 0.495 | PRE: 0.288 | AUC: 0.753 | Threshold: 0.01558
+Epoch 13 | Train loss: 0.00726 | Val loss: 0.00845 | Combo score: 0.456 | Smoothed: 0.422 | MCC: 0.300 | REC: 0.462 | PRE: 0.313 | AUC: 0.773 | Threshold: 0.01546
+Epoch 14 | Train loss: 0.00689 | Val loss: 0.00806 | Combo score: 0.445 | Smoothed: 0.424 | MCC: 0.242 | REC: 0.806 | PRE: 0.175 | AUC: 0.731 | Threshold: 0.00654
+Epoch 15 | Train loss: 0.00629 | Val loss: 0.00782 | Combo score: 0.446 | Smoothed: 0.426 | MCC: 0.287 | REC: 0.458 | PRE: 0.298 | AUC: 0.726 | Threshold: 0.01514
+Epoch 16 | Train loss: 0.00598 | Val loss: 0.00741 | Combo score: 0.432 | Smoothed: 0.427 | MCC: 0.249 | REC: 0.462 | PRE: 0.255 | AUC: 0.713 | Threshold: 0.01259
+Epoch 17 | Train loss: 0.00581 | Val loss: 0.00789 | Combo score: 0.463 | Smoothed: 0.430 | MCC: 0.328 | REC: 0.454 | PRE: 0.352 | AUC: 0.739 | Threshold: 0.01812
+Epoch 18 | Train loss: 0.00566 | Val loss: 0.00750 | Combo score: 0.452 | Smoothed: 0.433 | MCC: 0.294 | REC: 0.443 | PRE: 0.313 | AUC: 0.756 | Threshold: 0.01517
+Epoch 19 | Train loss: 0.00545 | Val loss: 0.00756 | Combo score: 0.452 | Smoothed: 0.434 | MCC: 0.304 | REC: 0.462 | PRE: 0.317 | AUC: 0.723 | Threshold: 0.01555
+Epoch 20 | Train loss: 0.00524 | Val loss: 0.00755 | Combo score: 0.456 | Smoothed: 0.437 | MCC: 0.311 | REC: 0.462 | PRE: 0.326 | AUC: 0.735 | Threshold: 0.01610
+Epoch 21 | Train loss: 0.00505 | Val loss: 0.00699 | Combo score: 0.468 | Smoothed: 0.440 | MCC: 0.334 | REC: 0.429 | PRE: 0.376 | AUC: 0.774 | Threshold: 0.01712
+Epoch 22 | Train loss: 0.00493 | Val loss: 0.00678 | Combo score: 0.468 | Smoothed: 0.443 | MCC: 0.333 | REC: 0.407 | PRE: 0.388 | AUC: 0.787 | Threshold: 0.01732
+Epoch 23 | Train loss: 0.00489 | Val loss: 0.00686 | Combo score: 0.478 | Smoothed: 0.446 | MCC: 0.366 | REC: 0.407 | PRE: 0.440 | AUC: 0.763 | Threshold: 0.01893
+Epoch 24 | Train loss: 0.00470 | Val loss: 0.00674 | Combo score: 0.459 | Smoothed: 0.447 | MCC: 0.316 | REC: 0.407 | PRE: 0.364 | AUC: 0.755 | Threshold: 0.01707
+Epoch 25 | Train loss: 0.00461 | Val loss: 0.00663 | Combo score: 0.449 | Smoothed: 0.448 | MCC: 0.289 | REC: 0.425 | PRE: 0.316 | AUC: 0.757 | Threshold: 0.01429
+Epoch 26 | Train loss: 0.00488 | Val loss: 0.00706 | Combo score: 0.472 | Smoothed: 0.450 | MCC: 0.344 | REC: 0.399 | PRE: 0.411 | AUC: 0.778 | Threshold: 0.01898
+Epoch 27 | Train loss: 0.00455 | Val loss: 0.00673 | Combo score: 0.467 | Smoothed: 0.452 | MCC: 0.339 | REC: 0.421 | PRE: 0.389 | AUC: 0.746 | Threshold: 0.01702
+Epoch 28 | Train loss: 0.00435 | Val loss: 0.00650 | Combo score: 0.472 | Smoothed: 0.454 | MCC: 0.353 | REC: 0.429 | PRE: 0.403 | AUC: 0.749 | Threshold: 0.01723
+Epoch 29 | Train loss: 0.00426 | Val loss: 0.00669 | Combo score: 0.489 | Smoothed: 0.457 | MCC: 0.395 | REC: 0.425 | PRE: 0.475 | AUC: 0.749 | Threshold: 0.01930
+Epoch 30 | Train loss: 0.00417 | Val loss: 0.00643 | Combo score: 0.477 | Smoothed: 0.459 | MCC: 0.366 | REC: 0.421 | PRE: 0.429 | AUC: 0.748 | Threshold: 0.01798
+Epoch 31 | Train loss: 0.00456 | Val loss: 0.00673 | Combo score: 0.469 | Smoothed: 0.460 | MCC: 0.338 | REC: 0.396 | PRE: 0.404 | AUC: 0.775 | Threshold: 0.01781
+Epoch 32 | Train loss: 0.00419 | Val loss: 0.00609 | Combo score: 0.461 | Smoothed: 0.460 | MCC: 0.319 | REC: 0.451 | PRE: 0.343 | AUC: 0.755 | Threshold: 0.01426
+Epoch 33 | Train loss: 0.00400 | Val loss: 0.00626 | Combo score: 0.485 | Smoothed: 0.463 | MCC: 0.378 | REC: 0.429 | PRE: 0.443 | AUC: 0.781 | Threshold: 0.01798
+Epoch 34 | Train loss: 0.00391 | Val loss: 0.00617 | Combo score: 0.469 | Smoothed: 0.463 | MCC: 0.337 | REC: 0.447 | PRE: 0.369 | AUC: 0.769 | Threshold: 0.01617
+Epoch 35 | Train loss: 0.00386 | Val loss: 0.00600 | Combo score: 0.469 | Smoothed: 0.464 | MCC: 0.342 | REC: 0.447 | PRE: 0.375 | AUC: 0.749 | Threshold: 0.01524
+Epoch 36 | Train loss: 0.00387 | Val loss: 0.00624 | Combo score: 0.461 | Smoothed: 0.464 | MCC: 0.318 | REC: 0.429 | PRE: 0.352 | AUC: 0.767 | Threshold: 0.01588
+Epoch 37 | Train loss: 0.00376 | Val loss: 0.00599 | Combo score: 0.472 | Smoothed: 0.464 | MCC: 0.350 | REC: 0.432 | PRE: 0.397 | AUC: 0.755 | Threshold: 0.01600
+Epoch 38 | Train loss: 0.00372 | Val loss: 0.00578 | Combo score: 0.443 | Smoothed: 0.462 | MCC: 0.279 | REC: 0.377 | PRE: 0.328 | AUC: 0.746 | Threshold: 0.01532
+Epoch 39 | Train loss: 0.00384 | Val loss: 0.00637 | Combo score: 0.445 | Smoothed: 0.461 | MCC: 0.280 | REC: 0.418 | PRE: 0.308 | AUC: 0.748 | Threshold: 0.01456
+Epoch 40 | Train loss: 0.00375 | Val loss: 0.00642 | Combo score: 0.492 | Smoothed: 0.464 | MCC: 0.400 | REC: 0.429 | PRE: 0.480 | AUC: 0.771 | Threshold: 0.02013
+Epoch 41 | Train loss: 0.00415 | Val loss: 0.00601 | Combo score: 0.460 | Smoothed: 0.463 | MCC: 0.320 | REC: 0.436 | PRE: 0.351 | AUC: 0.746 | Threshold: 0.01430
+Epoch 42 | Train loss: 0.00372 | Val loss: 0.00627 | Combo score: 0.486 | Smoothed: 0.466 | MCC: 0.387 | REC: 0.429 | PRE: 0.459 | AUC: 0.753 | Threshold: 0.01833
+Epoch 43 | Train loss: 0.00365 | Val loss: 0.00598 | Combo score: 0.462 | Smoothed: 0.465 | MCC: 0.317 | REC: 0.432 | PRE: 0.349 | AUC: 0.777 | Threshold: 0.01475
+Epoch 44 | Train loss: 0.00358 | Val loss: 0.00592 | Combo score: 0.463 | Smoothed: 0.465 | MCC: 0.325 | REC: 0.440 | PRE: 0.356 | AUC: 0.758 | Threshold: 0.01457
+Epoch 45 | Train loss: 0.00357 | Val loss: 0.00655 | Combo score: 0.467 | Smoothed: 0.465 | MCC: 0.334 | REC: 0.447 | PRE: 0.364 | AUC: 0.764 | Threshold: 0.01643
+Epoch 46 | Train loss: 0.00363 | Val loss: 0.00629 | Combo score: 0.490 | Smoothed: 0.468 | MCC: 0.397 | REC: 0.429 | PRE: 0.476 | AUC: 0.758 | Threshold: 0.01964
+Epoch 47 | Train loss: 0.00348 | Val loss: 0.00595 | Combo score: 0.472 | Smoothed: 0.468 | MCC: 0.350 | REC: 0.443 | PRE: 0.390 | AUC: 0.753 | Threshold: 0.01618
+Epoch 48 | Train loss: 0.00346 | Val loss: 0.00580 | Combo score: 0.444 | Smoothed: 0.466 | MCC: 0.276 | REC: 0.432 | PRE: 0.296 | AUC: 0.745 | Threshold: 0.01330
+Epoch 49 | Train loss: 0.00345 | Val loss: 0.00588 | Combo score: 0.467 | Smoothed: 0.466 | MCC: 0.336 | REC: 0.425 | PRE: 0.380 | AUC: 0.759 | Threshold: 0.01649
+Epoch 50 | Train loss: 0.00343 | Val loss: 0.00580 | Combo score: 0.467 | Smoothed: 0.466 | MCC: 0.334 | REC: 0.447 | PRE: 0.364 | AUC: 0.760 | Threshold: 0.01549
+Epoch 51 | Train loss: 0.00338 | Val loss: 0.00571 | Combo score: 0.461 | Smoothed: 0.465 | MCC: 0.317 | REC: 0.436 | PRE: 0.347 | AUC: 0.768 | Threshold: 0.01474
+Epoch 52 | Train loss: 0.00336 | Val loss: 0.00580 | Combo score: 0.465 | Smoothed: 0.465 | MCC: 0.330 | REC: 0.451 | PRE: 0.357 | AUC: 0.757 | Threshold: 0.01489
+Epoch 53 | Train loss: 0.00337 | Val loss: 0.00568 | Combo score: 0.458 | Smoothed: 0.465 | MCC: 0.314 | REC: 0.432 | PRE: 0.346 | AUC: 0.746 | Threshold: 0.01444
+Epoch 54 | Train loss: 0.00347 | Val loss: 0.00589 | Combo score: 0.476 | Smoothed: 0.466 | MCC: 0.358 | REC: 0.432 | PRE: 0.408 | AUC: 0.772 | Threshold: 0.01664
+Epoch 55 | Train loss: 0.00331 | Val loss: 0.00539 | Combo score: 0.460 | Smoothed: 0.465 | MCC: 0.317 | REC: 0.447 | PRE: 0.341 | AUC: 0.758 | Threshold: 0.01354
+Epoch 56 | Train loss: 0.00331 | Val loss: 0.00577 | Combo score: 0.461 | Smoothed: 0.465 | MCC: 0.324 | REC: 0.432 | PRE: 0.359 | AUC: 0.744 | Threshold: 0.01515
+Epoch 57 | Train loss: 0.00333 | Val loss: 0.00575 | Combo score: 0.467 | Smoothed: 0.465 | MCC: 0.335 | REC: 0.443 | PRE: 0.368 | AUC: 0.759 | Threshold: 0.01547
+Early stopping at epoch 57 (no improvement in smoothed or combo score over 10 epochs)
+
+--- Fold 11 summary (years: [2015, 2016]) ---
+Best epoch: 40
+Threshold used: 0.02013
+Validation metrics:
+ACC: 90.2%
+PRE: 48.0%
+REC: 42.9%
+MCC: 0.40
+AUC: 0.77
+==================================================
+
