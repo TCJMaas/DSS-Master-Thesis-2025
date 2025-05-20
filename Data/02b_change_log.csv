@@ -1,0 +1,115 @@
+,Date,State,Variable,Original,Clipped
+0,2006-04-05,Australian Capital Territory,Wind speed [m/s]_mean,6.0286956,6.071348319999999
+1,2012-09-07,Australian Capital Territory,Wind speed [m/s]_mean,6.99219,6.8490151
+2,2013-10-10,New South Wales,Wind speed [m/s]_mean,6.046298,6.0772925
+3,2015-07-12,New South Wales,Wind speed [m/s]_mean,6.923776,6.841226499999999
+4,2005-09-10,South Australia,Wind speed [m/s]_mean,7.2901483,7.30090688
+5,2013-09-30,South Australia,Wind speed [m/s]_mean,8.212792,8.1163579
+6,2005-07-08,Australian Capital Territory,Precipitation [mm/day]_sum,36.640406,36.210394099999995
+7,2006-07-15,Australian Capital Territory,Precipitation [mm/day]_sum,17.691612,17.85780195
+8,2007-06-26,Australian Capital Territory,Precipitation [mm/day]_sum,39.846182,36.210394099999995
+9,2010-05-29,Australian Capital Territory,Precipitation [mm/day]_sum,16.890883,17.85780195
+10,2011-12-11,Australian Capital Territory,Precipitation [mm/day]_sum,17.604232,17.85780195
+11,2016-09-02,Australian Capital Territory,Precipitation [mm/day]_sum,44.30306,36.210394099999995
+12,2007-05-17,New South Wales,Precipitation [mm/day]_sum,22.281524,18.990214
+13,2011-12-18,New South Wales,Precipitation [mm/day]_sum,9.527401,9.700388499999999
+14,2012-01-24,New South Wales,Precipitation [mm/day]_sum,9.653477,9.700388499999999
+15,2013-09-16,New South Wales,Precipitation [mm/day]_sum,19.530622,18.990214
+16,2012-05-24,Queensland,Precipitation [mm/day]_sum,15.149939,14.7020773
+17,2013-03-01,Queensland,Precipitation [mm/day]_sum,10.504666,10.55135055
+18,2010-08-22,South Australia,Precipitation [mm/day]_sum,5.500368,5.603816999999999
+19,2010-11-26,South Australia,Precipitation [mm/day]_sum,13.168878,10.501505
+20,2007-12-21,Tasmania,Precipitation [mm/day]_sum,28.363595,27.50728715
+21,2014-02-15,Tasmania,Precipitation [mm/day]_sum,15.969139,15.9810964
+22,2014-09-30,Tasmania,Precipitation [mm/day]_sum,15.964717,15.9810964
+23,2016-11-12,Tasmania,Precipitation [mm/day]_sum,27.550133,27.50728715
+24,2007-11-03,Victoria,Precipitation [mm/day]_sum,28.07684,24.887474599999994
+25,2009-11-21,Victoria,Precipitation [mm/day]_sum,25.801105,24.887474599999994
+26,2010-12-19,Victoria,Precipitation [mm/day]_sum,11.372881,11.808541400000001
+27,2011-12-18,Victoria,Precipitation [mm/day]_sum,11.693763,11.808541400000001
+28,2007-06-08,Australian Capital Territory,Wind speed [m/s]_min,5.916512,5.44886076
+29,2011-06-14,Australian Capital Territory,Wind speed [m/s]_min,4.1826363,4.19593384
+30,2013-08-13,Australian Capital Territory,Wind speed [m/s]_min,4.171586,4.19593384
+31,2015-07-25,Australian Capital Territory,Wind speed [m/s]_min,5.4766493,5.44886076
+32,2015-07-12,New South Wales,Wind speed [m/s]_min,5.06187,4.85116225
+33,2015-09-22,New South Wales,Wind speed [m/s]_min,3.9423418,3.957064035
+34,2008-07-19,South Australia,Wind speed [m/s]_min,4.8175597,4.84707028
+35,2014-06-27,South Australia,Wind speed [m/s]_min,5.572232,5.47658444
+36,2006-07-15,Australian Capital Territory,Precipitation [mm/day]_min,0.0673532499999999,0.0699281699999999
+37,2007-06-26,Australian Capital Territory,Precipitation [mm/day]_min,0.40757656,0.40690899199999997
+38,2014-02-28,New South Wales,Precipitation [mm/day]_min,0.09633654,0.07256234350000001
+39,2015-02-20,New South Wales,Precipitation [mm/day]_min,0.025419742,0.02615237725
+40,2005-11-10,Tasmania,Precipitation [mm/day]_min,0.075170814,0.07666497224999999
+41,2005-12-24,Tasmania,Precipitation [mm/day]_min,0.1723588999999999,0.17115833149999993
+42,2009-04-05,Tasmania,Precipitation [mm/day]_min,0.075943215,0.07666497224999999
+43,2010-09-04,Tasmania,Precipitation [mm/day]_min,0.17391946,0.17115833149999993
+44,2007-11-03,Victoria,Precipitation [mm/day]_min,0.12380564,0.11220667355
+45,2009-10-13,Victoria,Precipitation [mm/day]_min,0.027748887,0.027803274249999996
+46,2010-10-30,Victoria,Precipitation [mm/day]_min,0.112407084,0.11220667355
+47,2012-07-10,Victoria,Precipitation [mm/day]_min,0.026996318,0.027803274249999996
+48,2007-09-25,South Australia,Wind speed [m/s]_max,10.506074,10.5309392
+49,2013-09-30,South Australia,Wind speed [m/s]_max,12.088164,11.7938289
+50,2007-05-29,Australian Capital Territory,Precipitation [mm/day]_max,5.8534145,5.79574106
+51,2007-11-03,Australian Capital Territory,Precipitation [mm/day]_max,5.8134794,5.79574106
+52,2008-03-25,Australian Capital Territory,Precipitation [mm/day]_max,3.4948587,3.60193252
+53,2010-07-13,Australian Capital Territory,Precipitation [mm/day]_max,3.5885572,3.60193252
+54,2011-12-11,Australian Capital Territory,Precipitation [mm/day]_max,6.947994,5.79574106
+55,2015-06-17,Australian Capital Territory,Precipitation [mm/day]_max,3.4936666,3.60193252
+56,2005-08-19,New South Wales,Precipitation [mm/day]_max,1.9585486,1.95966394
+57,2005-12-02,New South Wales,Precipitation [mm/day]_max,3.917967,3.7753370399999997
+58,2008-11-28,New South Wales,Precipitation [mm/day]_max,4.5316075,3.7753370399999997
+59,2012-02-20,New South Wales,Precipitation [mm/day]_max,1.954059,1.95966394
+60,2005-02-09,Queensland,Precipitation [mm/day]_max,3.1068148,2.8992710500000003
+61,2008-12-28,Queensland,Precipitation [mm/day]_max,2.1471675,2.1638958749999997
+62,2010-11-26,South Australia,Precipitation [mm/day]_max,2.7997026,2.2478184
+63,2011-10-28,South Australia,Precipitation [mm/day]_max,1.2407877,1.24724479
+64,2012-01-07,South Australia,Precipitation [mm/day]_max,2.2630994,2.2478184
+65,2016-01-21,South Australia,Precipitation [mm/day]_max,1.2204013,1.24724479
+66,2005-11-25,Tasmania,Precipitation [mm/day]_max,4.260445499999999,4.204694504999999
+67,2007-08-02,Tasmania,Precipitation [mm/day]_max,2.8648218,2.88724847
+68,2007-12-21,Tasmania,Precipitation [mm/day]_max,5.481598,4.204694504999999
+69,2013-04-22,Tasmania,Precipitation [mm/day]_max,2.883308,2.88724847
+70,2005-06-10,Victoria,Precipitation [mm/day]_max,2.3325772,2.35640272
+71,2007-04-27,Victoria,Precipitation [mm/day]_max,2.355836,2.35640272
+72,2009-11-21,Victoria,Precipitation [mm/day]_max,4.264813999999999,4.230274
+73,2011-11-09,Victoria,Precipitation [mm/day]_max,5.6985496,4.230274
+74,2007-01-03,Western Australia,Precipitation [mm/day]_max,3.785193,3.0075600149999984
+75,2008-12-26,Western Australia,Precipitation [mm/day]_max,1.365885,1.37327283
+76,2009-04-15,Australian Capital Territory,Wind speed [m/s]_std,2.8978887,2.6863612949999998
+77,2010-03-21,Australian Capital Territory,Wind speed [m/s]_std,2.178766,2.193333525
+78,2012-04-25,Australian Capital Territory,Wind speed [m/s]_std,2.1679943,2.193333525
+79,2015-09-15,Australian Capital Territory,Wind speed [m/s]_std,2.7425308,2.6863612949999998
+80,2006-11-13,New South Wales,Wind speed [m/s]_std,2.2737484,2.233958725
+81,2007-09-20,New South Wales,Wind speed [m/s]_std,1.8261617,1.8659550500000002
+82,2008-09-22,South Australia,Wind speed [m/s]_std,2.3536623,2.32135598
+83,2013-08-29,South Australia,Wind speed [m/s]_std,2.1069896,2.1164424
+84,2006-01-03,Tasmania,Wind speed [m/s]_std,2.7779748,2.58316077
+85,2011-04-23,Tasmania,Wind speed [m/s]_std,2.0978968,2.10888374
+86,2007-01-03,Western Australia,Wind speed [m/s]_std,2.0543795,2.034535585
+87,2010-08-17,Western Australia,Wind speed [m/s]_std,1.8215129,1.821701075
+88,2005-09-28,Australian Capital Territory,Precipitation [mm/day]_std,1.4826106,1.40771965
+89,2007-11-03,Australian Capital Territory,Precipitation [mm/day]_std,1.7832841,1.40771965
+90,2010-11-01,Australian Capital Territory,Precipitation [mm/day]_std,0.91935584,0.9356179474999999
+91,2011-12-11,Australian Capital Territory,Precipitation [mm/day]_std,1.6509742,1.40771965
+92,2014-11-15,Australian Capital Territory,Precipitation [mm/day]_std,0.9306122,0.9356179474999999
+93,2016-03-18,Australian Capital Territory,Precipitation [mm/day]_std,0.921655,0.9356179474999999
+94,2007-01-01,New South Wales,Precipitation [mm/day]_std,0.51968475,0.52737505
+95,2007-05-17,New South Wales,Precipitation [mm/day]_std,1.0400541,1.0134092000000001
+96,2008-11-28,New South Wales,Precipitation [mm/day]_std,1.1818673,1.0134092000000001
+97,2012-03-16,New South Wales,Precipitation [mm/day]_std,0.5220912,0.52737505
+98,2005-02-09,Queensland,Precipitation [mm/day]_std,0.8623987000000001,0.765511675
+99,2011-01-11,Queensland,Precipitation [mm/day]_std,0.5514739,0.557173975
+100,2010-11-26,South Australia,Precipitation [mm/day]_std,0.7509285,0.5663681299999999
+101,2012-01-07,South Australia,Precipitation [mm/day]_std,0.5730002,0.5663681299999999
+102,2013-02-27,South Australia,Precipitation [mm/day]_std,0.3357697999999999,0.3506882585
+103,2016-12-05,South Australia,Precipitation [mm/day]_std,0.35058224,0.3506882585
+104,2005-11-25,Tasmania,Precipitation [mm/day]_std,1.1583081000000002,1.1071774099999998
+105,2007-12-03,Tasmania,Precipitation [mm/day]_std,0.79178845,0.7968279585
+106,2007-12-21,Tasmania,Precipitation [mm/day]_std,1.6313563,1.1071774099999998
+107,2010-03-28,Tasmania,Precipitation [mm/day]_std,0.78592816,0.7968279585
+108,2006-05-06,Victoria,Precipitation [mm/day]_std,0.6325511,0.64010723
+109,2010-10-06,Victoria,Precipitation [mm/day]_std,0.6298903,0.64010723
+110,2011-02-18,Victoria,Precipitation [mm/day]_std,1.1727518,1.1158760300000001
+111,2011-11-09,Victoria,Precipitation [mm/day]_std,1.4477486,1.1158760300000001
+112,2005-06-17,Western Australia,Precipitation [mm/day]_std,0.35852814,0.35870503
+113,2007-01-03,Western Australia,Precipitation [mm/day]_std,1.0117204,0.7840716
