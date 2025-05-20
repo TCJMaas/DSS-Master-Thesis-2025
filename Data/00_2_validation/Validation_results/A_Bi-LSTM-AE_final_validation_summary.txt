@@ -1,0 +1,10 @@
+ACC_mean: 0.880
+ACC_std: 0.029
+PRE_mean: 0.515
+PRE_std: 0.107
+REC_mean: 0.404
+REC_std: 0.150
+MCC_mean: 0.378
+MCC_std: 0.007
+AUC_mean: 0.810
+AUC_std: 0.016
