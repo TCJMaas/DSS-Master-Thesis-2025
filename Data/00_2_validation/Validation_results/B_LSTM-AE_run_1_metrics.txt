@@ -1,0 +1,6 @@
+ACC: 72.41%
+PRE: 35.12%
+REC: 74.43%
+MCC: 0.363
+AUC: 0.793
+Best Threshold: 0.01260
